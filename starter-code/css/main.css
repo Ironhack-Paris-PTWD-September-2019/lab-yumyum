@@ -1,1 +1,65 @@
 *, :before, :after {box-sizing:border-box;}
+body{
+  font-family:lato;
+  font-weight: normal,bold;
+  background-color: grey;
+  margin: 0%;
+  padding: 0%;
+  height: 100%;
+}
+header{
+  font-family: intro;
+  font-weight: 400;
+
+}
+header nav{
+  display: flex;
+  text-align: center ;
+  background-color: white;
+  color: grey;
+  font-size:12px;
+  padding-top:20px ;
+  width: 100%;
+ 
+}
+.masterhead img{
+  padding-left:2em;
+}
+.logo{
+  height: 20px;
+  margin-right: 1em;
+}
+.logo1{
+  margin-left: 1em;
+}
+.imgnav{
+display: flex;
+margin-left:auto;
+margin-right: 0,5em;
+}
+
+.imggrey{
+  width:100%;
+}
+.contenu1{
+  background: rgb(159,173,13);
+  background: linear-gradient(177deg, rgba(159,173,13,1) 0%, rgba(9,121,16,1) 35%, rgba(112,255,0,1) 100%);
+  padding:0%;
+  display: flex;
+  flex-direction: column;
+}
+
+div h2{
+  color: white;
+  font-size:200%;
+  width:200px;
+  margin: auto;
+}
+.text{
+display:block;
+}
+.buton{
+  color: white;
+  background-color: tomato;
+  border-radius: 20%;
+}
