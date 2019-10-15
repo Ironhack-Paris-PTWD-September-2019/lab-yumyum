@@ -3,13 +3,17 @@
 <head>
   <meta charset="utf-8" />
   <title></title>
+  <link rel="stylesheet" href="css/main.css" />
   <link rel="stylesheet" href="fonts/Intro/index.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700,900&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
   <header>
     <nav>
       <div class="masthead">
-        <h1>YUM-YUM</h1>
+        <h1><img id="logo" src="images/logo.svg" alt="YUM-YUM" /></h1>
         <p>Local Cuisine Delivered</p>
       </div>
 
@@ -18,65 +22,120 @@
         <a href="javascript:void 0;">Panier</a>
       </div>
     </nav>
-
-    <h2>Order from restaurants around you</h2>
-    <form action="javascript:void 0;">
-      <label>
-        Enter your address
-        <input type="text" name="address">
-      </label>
-    
-      <label>
-        What would you like
-        <input type="text" name="foodtype">
-      </label>
-
-      <p>
-        <button type="submit">Find a food</button>
-      </p>
-    </form>
+    <div id="orderForm">
+      <h2>Order from restaurants around you</h2>
+      <form action="javascript:void 0;">
+        <input type="text" name="address" placeholder="Enter your address">
+        <input type="text" name="foodtype" placeholder="What would you like?">
+        <p>
+          <button type="submit">Find a food</button>
+        </p>
+      </form>
+    </div>
 
   </header>
 
-  <section>
+  <section id="howItWorks">
     <h2>How it works</h2>
-
-    1. Search
-    Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue.
-
-    2. Order
-    Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus.
-
-    3. Eat
-    Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus.
+      <div class="step">
+        <img src="images/map.png" alt="map" />
+        <div class="stepDescription">
+          <h3>1. Search</h3>
+          <p>Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue.</p>
+        </div>
+      </div>
+      
+      <div class="step">
+        <img src="images/clipboard.png" alt="clipboard" />
+        <div class="stepDescription">
+          <h3>2. Order</h3>
+          <p>Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus.</p>
+        </div>
+      </div>
+    
+      <div class="step">
+        <img src="images/bag.png" alt="bag" />
+        <div class="stepDescription">
+          <h3>3. Eat</h3>
+          <p>Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus.</p>
+        </div>
+      </div>
   </section>
 
-  <section>
+  <section id="dishes">
     <h2>Dishes</h2>
-
-    Pasta with Lamb Ragù: Coppa, Boston
-    Christine Quinlan
-    $ 19.95
-    Buy Now
-    5 stars
-    1,679 Ratings
-
-    Pasta with Lamb Ragù: Coppa, Boston
-    Christine Quinlan
-    $ 5.99
-    Buy Now
-    4 stars
-    12 Ratings
-
-    Pork Rillette Hand Pies: Olympic Provisions; Portland, OR
-    Joey Pepperoni's Pizza
-    $ 10.80
-    Buy Now
-    4 stars
-    33 Ratings
+    <div class="dishCard">
+      <div class="dishImage">
+      </div>
+      <div class="dishInformation">
+        <h3>Pasta with Lamb Ragù: Coppa, Boston</h3>
+        <p>Christine Quinlan</p>
+        <div class="dishPriceBlock">
+          <span class="dishPrice">$ 19.95</span>
+          <button>Buy Now</button>
+        </div>
+        <hr>
+        <div class="dishRatings">
+          <div class="ratingsStars">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+          </div>
+          <span>1,679 Ratings ></span>
+        </div>
+      </div>
+    </div>
+    <div class="dishCard">
+      <div class="dishImage">
+      </div>
+      <div class="dishInformation">
+        <h3>Pasta with Lamb Ragù: Coppa, Boston</h3>
+        <p>Christine Quinlan</p>
+        <div class="dishPriceBlock">
+          <span class="dishPrice">$ 5.99</span>
+          <button>Buy Now</button>
+        </div>
+        <hr>
+        <div class="dishRatings">
+          <div class="ratingsStars">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+          </div>
+          <span>12 Ratings ></span>
+        </div>
+      </div>
+    </div>
+    <div class="dishCard">
+      <div class="dishImage">
+      </div>
+      <div class="dishInformation">
+        <h3>Pork Rillette Hand Pies: Olympic Provisions; Portland, OR</h3>
+        <p>Joey Pepperoni's Pizza</p>
+        <div class="dishPriceBlock">
+          <span class="dishPrice">$ 10.80</span>
+          <button>Buy Now</button>
+        </div>
+        <hr>
+        <div class="dishRatings">
+          <div class="ratingsStars">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+          </div>
+          <span>33 Ratings ></span>
+        </div>
+      </div>
+    </div>
   </section>
 
-  <aside>
+  <aside id="mainFeatures">
     Easy Online
     No need to pick up the phone.Quick and accurate ordering is here.
 
@@ -89,8 +148,8 @@
     Anytime, Anywhere
     On-the-go? Che out our conveniant apps for iOS and Android
   </aside>
-
-  <section>
+  
+  <section id="restaurantsByCuisine">
     <h2>Restaurant by Cuisine</h2>
 
     A La Carte
@@ -105,7 +164,7 @@
 
   <div>banner from hezy theme</div>
 
-  <section>
+  <section id="featuredRestaurant">
     <h2>Featured Restaurant</h2>
     
     Acquerello
