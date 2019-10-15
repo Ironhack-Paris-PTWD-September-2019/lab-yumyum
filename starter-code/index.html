@@ -3,38 +3,53 @@
 <head>
   <meta charset="utf-8" />
   <title></title>
+
   <link rel="stylesheet" href="fonts/Intro/index.css" />
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="./css/main.css">
+  <link rel="stylesheet" media="(media-features)" href="./css/main.css"/>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
 </head>
 <body>
   <header>
     <nav>
       <div class="masthead">
-        <h1>YUM-YUM</h1>
+        <img src="images/logo.svg" class="yumyum">
         <p>Local Cuisine Delivered</p>
       </div>
 
-      <div>
-        <a href="javascript:void 0;">Menu</a>
-        <a href="javascript:void 0;">Panier</a>
+      <div class="logo">
+        <a href="javascript:void 0;"><img src="images/hamburger.svg" class="hamburger"></a>
+        <a href="javascript:void 0;"><img src="images/cart.svg" class="cart"></a>
       </div>
     </nav>
 
-    <h2>Order from restaurants around you</h2>
-    <form action="javascript:void 0;">
-      <label>
-        Enter your address
-        <input type="text" name="address">
+    <div class="headeralign">
+      <div class="placeholder1">
+       <img src="https://via.placeholder.com/375x375.png" class="placeholder1img">
+      </div>
+
+    <div class="header2">
+      <h2>Order from restaurants around you</h2>
+     <form action="javascript:void 0;">
+       <div class="labels">
+      <label class="lign1">
+        <input type="text" name="address" value="Enter your address" class="label1content">
       </label>
     
-      <label>
-        What would you like
-        <input type="text" name="foodtype">
+      <label class="lign2">
+        <input type="text" name="foodtype" value="What would you like" class="label2content">
       </label>
+    </div>
 
-      <p>
-        <button type="submit">Find a food</button>
+      <p class="food">
+        <button type="submit" class="foodbutton">Find a food</button>
       </p>
-    </form>
+      </form>
+    </div>
+     </div>
 
   </header>
 
