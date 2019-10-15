@@ -2,6 +2,9 @@
 <html>
 <head>
 	<title>Yum-Yum</title>
+	<meta charset="UTF-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap" rel="stylesheet"> 
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/main.css">
 	
@@ -14,11 +17,11 @@
 				<p>Local Cuisine Delivered</p>
 		</div>
 		<div class="nav-right">
-				<img src="images/hamburger.svg"" alt="hamburger menu">
-				<img src="images/cart.svg" alt="cart">
+				<a href=""><img src="images/hamburger.svg"" alt="hamburger menu"></a>
+				<a href=""><img src="images/cart.svg" alt="cart"></a>
 		</div>	
 	</nav>
-
+	
 	<header>
 		<div class="empty"></div>
 		<div class="order">
@@ -34,7 +37,7 @@
 						<input type="text" name="foodtype" id="foodtype" placeholder="What would you like?">
 					</div>
 
-					<input class="submit" type="submit" value="FIND A FOOD">
+					<button class="submit">Find a Food</button>
 			</form>	
 		</div>
 	</header>
@@ -92,6 +95,8 @@
 				</div>
 			</div>
 
+			
+
 			<div class="dish">
 					<div class="empty"></div>
 					<div class="dish-description">
@@ -114,27 +119,49 @@
 					</div>
 				</div>
 
-				<div class="dish">
-						<div class="empty"></div>
-						<div class="dish-description">
-							<h4>Pork Rillette Hand Pies: <br/> Coppa, Boston</h4>
-							<h5>Christine Quinlan</h5>
-							<div class="price">
-								<p>$5,99</p>
-								<button>Buy Now</button>
+			<div class="dish">
+				<div class="empty"></div>
+				<div class="dish-description">
+					<h4>Pasta with lamb Ragu: <br/> Coppa, Boston</h4>
+					<h5>Christine Quinlan</h5>
+					<div class="price">
+						<p>$10,99</p>
+						<button>Buy Now</button>
+					</div>
+					<div class="ratings">
+							<div class="stars">
+								<img class="star" src="images/star.svg" alt="star rating">
+								<img class="star" src="images/star.svg" alt="star rating">
+								<img class="star" src="images/star.svg" alt="star rating">
+								<img class="star" src="images/star.svg" alt="star rating">
+								<img class="star" src="images/star.svg" alt="star rating">
 							</div>
-							<div class="ratings">
-									<div class="stars">
-										<img class="star" src="images/star.svg" alt="star rating">
-										<img class="star" src="images/star.svg" alt="star rating">
-										<img class="star" src="images/star.svg" alt="star rating">
-										<img class="star" src="images/star.svg" alt="star rating">
-										<img class="star" src="images/star.svg" alt="star rating">
-									</div>
-									<a href="">33 ratings > </a>
-							</div>
+							<a href="">12 ratings > </a>
+					</div>
+				</div>
+			</div>
+
+			<div class="dish">
+					<div class="empty"></div>
+					<div class="dish-description">
+						<h4>Pork Rillette Hand Pies: <br/> Coppa, Boston</h4>
+						<h5>Christine Quinlan</h5>
+						<div class="price">
+							<p>$5,99</p>
+							<button>Buy Now</button>
+						</div>
+						<div class="ratings">
+								<div class="stars">
+									<img class="star" src="images/star.svg" alt="star rating">
+									<img class="star" src="images/star.svg" alt="star rating">
+									<img class="star" src="images/star.svg" alt="star rating">
+									<img class="star" src="images/star.svg" alt="star rating">
+									<img class="star" src="images/star.svg" alt="star rating">
+								</div>
+								<a href="">33 ratings > </a>
 						</div>
 					</div>
+				</div>
 	</section>
 
 	<section id="infos">
@@ -158,7 +185,7 @@
 		</div>
 
 		<div class="block-info">
-				<div class="round-box"><img class="logo-info" src="images/phone.svg" alt="phone logo"></div>
+				<div class="round-box"><img class="logo-info" src="images/mobile.svg" alt="phone logo"></div>
 				<h3>ANYTIME, ANYWHERE</h3>
 				<p>On-the-go? Chek out our fabulous apps on IOs and Android</p>
 		</div>
