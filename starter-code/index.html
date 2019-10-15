@@ -2,105 +2,133 @@
 <html>
 <head>
   <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title></title>
   <link rel="stylesheet" href="fonts/Intro/index.css" />
+  <link rel="stylesheet" href="css/main.css" />
+  <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
 </head>
 <body>
   <header>
     <nav>
       <div class="masthead">
-        <h1>YUM-YUM</h1>
+        <img src="images/logo.svg" alt="logo">
         <p>Local Cuisine Delivered</p>
       </div>
 
-      <div>
-        <a href="javascript:void 0;">Menu</a>
-        <a href="javascript:void 0;">Panier</a>
+      <div class="menuetpanier">
+        <img src="images/hamburger.svg">
+        <img src="images/cart.svg">
       </div>
     </nav>
+    <div class="bloc"><a href="https://placeholder.com"><img src="https://via.placeholder.com/800x600"></a></div>
+    <div id="vert">
+      <h2 class="order">Order from restaurants around you</h2>
+      <form action="#" method="post">
+        <div class="form">
+            <img class="geoloc" src="images/pin.svg">
+            <img class="bbq" src="images/bbq.svg">
+            <div><input type="text" name="address" placeholder="Enter your address"></div>
+            <div><input type="text" name="foodtype" placeholder="What would you like"></div>
 
-    <h2>Order from restaurants around you</h2>
-    <form action="javascript:void 0;">
-      <label>
-        Enter your address
-        <input type="text" name="address">
-      </label>
-    
-      <label>
-        What would you like
-        <input type="text" name="foodtype">
-      </label>
-
-      <p>
-        <button type="submit">Find a food</button>
-      </p>
-    </form>
+        </div>
+          <p>
+            <button type="submit">Find a food</button>
+          </p>
+        </div>
+      </form>
+    </div>
 
   </header>
 
   <section>
     <h2>How it works</h2>
-
-    1. Search
-    Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue.
-
-    2. Order
-    Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus.
-
-    3. Eat
-    Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus.
+    <div>
+      <div>
+        <div><img src="images/map.png"></div>
+        <div>1. Search</div>
+        <div>Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue.</div>
+      </div>
+      <div>
+        <div><img src="images/clipboard.png"></div>
+        <div>2. Order</div>
+        <div>Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus.</div>
+      </div>
+      <div>
+        <div><img src="images/bag.png"></div>
+        <div>3. Eat</div>
+        <div>Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus.</div>
+      </div>
+    </div>   
   </section>
 
   <section>
-    <h2>Dishes</h2>
-
-    Pasta with Lamb Ragù: Coppa, Boston
-    Christine Quinlan
-    $ 19.95
-    Buy Now
-    5 stars
-    1,679 Ratings
-
-    Pasta with Lamb Ragù: Coppa, Boston
-    Christine Quinlan
-    $ 5.99
-    Buy Now
-    4 stars
-    12 Ratings
-
-    Pork Rillette Hand Pies: Olympic Provisions; Portland, OR
-    Joey Pepperoni's Pizza
-    $ 10.80
-    Buy Now
-    4 stars
-    33 Ratings
+    <div>
+      <div>
+        <h2>Dishes</h2>
+      </div>
+      <div>
+        <div><a href="https://placeholder.com"><img src="http://via.placeholder.com/300x200"></a></div>
+        <div>Pasta with Lamb Ragù: Coppa, Boston</div>
+        <div>Christine Quinlan</div>
+        <div>
+          <div>$ 19.95</div>
+          <div>Buy Now</div>
+        </div>
+        <div>
+          <div><img src="images/star.svg"><img src="images/star.svg"><img src="images/star.svg"><img src="images/star.svg"><img src="images/star.svg"></div>
+          <div>1,679 Ratings</div>
+        </div>
+      </div>
+  
+      Pasta with Lamb Ragù: Coppa, Boston
+      Christine Quinlan
+      $ 5.99
+      Buy Now
+      4 stars
+      12 Ratings
+  
+      Pork Rillette Hand Pies: Olympic Provisions; Portland, OR
+      Joey Pepperoni's Pizza
+      $ 10.80
+      Buy Now
+      4 stars
+      33 Ratings
+    </div>
+    
   </section>
 
   <aside>
-    Easy Online
-    No need to pick up the phone.Quick and accurate ordering is here.
-
-    12 000+ Menus
-    Discovery new places — order your usual and throw away those paper
-
-    Discounts & Deals
-    Get exclusive offers and save on your delivery favorites
-
-    Anytime, Anywhere
-    On-the-go? Che out our conveniant apps for iOS and Android
+    <div>
+      <img src="images/phone.svg">
+      <h3>Easy Online</h3>
+      <p>No need to pick up the phone.Quick and accurate ordering is here.</p>
+    </div>
+    <div>
+      <img src="images/chicken.svg">
+      <h3>12 000+ Menus</h3>
+      <p>Discovery new places — order your usual and throw away those paper</p>
+    </div>
+    <div>
+      <img src="images/percent.svg">
+      <h3>Discounts & Deals</h3>
+      <p>Get exclusive offers and save on your delivery favorites</p>
+    </div>
+    <div>
+      <img src="images/phone.svg">
+      <h3>Anytime, Anywhere</h3>
+      <p>On-the-go? Che out our conveniant apps for iOS and Android</p>
+    </div>
   </aside>
 
   <section>
     <h2>Restaurant by Cuisine</h2>
-
-    A La Carte
-    189 dishes
-
-    Fast Food
-    3,750 dishes
-
-    Italian
-    708 dishes
+    <div>
+      <div><a href="https://placeholder.com"><img src="http://via.placeholder.com/300x200"></a></div>
+      <div>A La Carte<p>189 dishes</p></div>
+      <div>Fast Food<p>3,750 dishes</p></div>
+      <div>Italian<p>708 dishes</p></div>
+    </div>
   </section>
 
   <div>banner from hezy theme</div>
@@ -124,11 +152,17 @@
   </section>
 
   <footer>
-    Get to know us
-    About AlaCartee
-    How Our Ordering Works
-    Blog
-    Press
+    <div>
+      <h4> Get to know us</h4>
+      <ul>
+        <li>About AlaCartee</li>
+        <li>How Our Ordering Works</li>
+        <li>Blog</li>
+        <li>Press</li>
+      </ul>
+    </div>
+   
+    
 
     Business Solutions
     Join Our Restaurant
@@ -144,12 +178,15 @@
     Help
     Suggev
 
-    <address class="copy">
-      © 2014 Yum Yum. With love by HezyTheme
-      Terms
-      Privacy
-      Contact Us
-    </address>
+    <diV>
+      <address class="copy">
+        © 2014 Yum Yum. With love by HezyTheme
+        <div>Terms</div>
+        <div>Privacy</div>
+        <div>Contact Us</div>
+      </address>
+    </diV>
+
   </footer>
 </body>
 </html>

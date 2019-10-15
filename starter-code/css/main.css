@@ -1,1 +1,100 @@
 *, :before, :after {box-sizing:border-box;}
+
+* {
+    box-sizing: border-box;
+    margin:0;
+}
+body {
+    font-family: 'Lato', sans-serif;
+}
+img {
+    max-width: 100%;
+}
+
+.menuetpanier > img {
+    height: 30px;
+
+}
+
+.masthead > p {
+    font-size:12px;
+    color: grey;
+}
+
+.menuetpanier {
+    margin-left: auto;
+}
+
+nav {
+    height: 80px;
+    display: flex;
+    padding: 20px 10px 20px 20px;
+}
+
+h2 {
+    text-transform: uppercase;
+}
+
+.order {
+    color:white;
+}
+
+#vert {
+    background: linear-gradient(180deg, rgba(185,217,58,1) 0%, rgba(116,204,82,1) 100%);
+    height: 50vh;
+}
+
+#vert img {
+    height: 30px;
+}
+
+.bloc {
+    margin:0;
+    padding-bottom: 0;
+}
+.form {
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+input {
+    height: 60px;
+    display:flex;
+    flex-direction:column;
+    width:100%;
+    padding-left: 50px;
+    position: relative;
+
+}
+
+.form > div {
+    padding-top:5px;
+    width:90%;
+
+}
+
+
+.geoloc , .bbq {
+    height: 10px;
+}
+.geoloc {
+    position: absolute;
+    bottom:169px;
+    z-index:1;
+}
+.bbq {
+    position: absolute;
+    top:30px;
+    z-index:1;
+}
+/*.geoloc {
+    background-image:url("../images/cart.svg");
+
+}
+
+.bbq {
+    background-image: url("../images/bbq.svg");
+}*/
