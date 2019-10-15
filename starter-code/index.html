@@ -2,40 +2,38 @@
 <html>
 <head>
   <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title></title>
-  <link rel="stylesheet" href="fonts/Intro/index.css" />
+  <link rel="stylesheet" href="./fonts/Intro/index.css"/>
+  <link rel="stylesheet" href="./css/main.css"/>
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700,900&display=swap" rel="stylesheet">
 </head>
 <body>
   <header>
     <nav>
       <div class="masthead">
-        <h1>YUM-YUM</h1>
-        <p>Local Cuisine Delivered</p>
+        <img id="logo" src="images/logo.svg">
+        <div class="icones">
+          <img id="menu" src="images/hamburger.svg"/>
+          <img id="cart" src="images/cart.svg"/>
+        </div>
       </div>
-
-      <div>
-        <a href="javascript:void 0;">Menu</a>
-        <a href="javascript:void 0;">Panier</a>
-      </div>
+      <p>Local Cuisine Delivered</p>
     </nav>
-
-    <h2>Order from restaurants around you</h2>
-    <form action="javascript:void 0;">
-      <label>
-        Enter your address
-        <input type="text" name="address">
-      </label>
-    
-      <label>
-        What would you like
-        <input type="text" name="foodtype">
-      </label>
-
-      <p>
-        <button type="submit">Find a food</button>
-      </p>
-    </form>
-
+    <section id="placeholder">
+      <img id="greyImage" src="https://via.placeholder.com/310x310"/>
+    </section>
+    <section id="greenSection">
+      <h2>ORDER FROM RESTAURANTS AROUND YOU</h2>
+      <!-- <img src="images/greenSection.png"/> -->
+      <form action="javascript:void 0;">
+          <input type="text" name="address" placeholder="Enter your address">
+          <input type="text" name="foodtype" placeholder="What would you like">
+        <p>
+          <button type="submit">Find a food</button>
+        </p>
+      </form>
+    </section>
   </header>
 
   <section>
