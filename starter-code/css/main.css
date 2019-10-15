@@ -1,1 +1,76 @@
 *, :before, :after {box-sizing:border-box;}
+
+body{
+  background-color: aqua;
+  font-family: "Intro";
+}
+
+.header nav{
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 12px;
+  font-weight: 400;
+  color: grey;
+}
+.header img{
+  height: 30px;
+  color: grey;
+}
+
+.order{
+  font-weight: 400;
+  color: white;
+  text-align: center;
+  background: rgb(115,204,83);
+  background: linear-gradient(13deg, rgba(115,204,83,1) 19%, rgba(255,255,255,1) 100%, rgba(192,218,56,1) 100%);
+}
+
+h2{
+  text-transform: uppercase;
+}
+  
+.label{
+  text-transform: lowercase;
+  color: grey;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.button{
+  background-color: orange;
+  width: 100px;
+}
+
+.works{
+  background-color: white;
+}
+
+.dishes{
+  background-color: bisque;
+}
+
+.red-banner{
+  background: rgb(238,59,81);
+  background: linear-gradient(0deg, rgba(238,59,81,1) 26%, rgba(249,111,68,1) 77%, rgba(255,255,255,1) 100%);
+}
+
+.restaurant{
+  background-color: bisque;
+}
+
+.banner{
+  background-color: black
+}
+
+.featured{
+  background-color: white;
+}
+
+.footer{
+  background-color: white;
+}
+
+.copy{
+  background-color: bisque;
+}
