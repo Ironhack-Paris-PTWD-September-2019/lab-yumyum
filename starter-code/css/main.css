@@ -13,8 +13,12 @@ h1, h2 {
     font-family:"Intro";
 }
 
-h1 { font-weight: 400; }
+h1 { 
+    font-weight: 400;
+    margin-bottom: 0;
+}
 h2 { 
+    font-size: 200%;
     font-weight: 900;
     color: #ED7142;
     text-transform: uppercase;
@@ -22,8 +26,36 @@ h2 {
     margin-bottom: 1em;
 }
 h3 { 
-    font-weight: 900;
+    font-size: 120%;
+    font-weight: 600;
     text-transform: uppercase;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+#masthead {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+#masthead p {
+    margin-top: 0;
+    font-size: 90%;
+    color: #8c8f92;
+}
+
+#navigation {
+    display: flex;
+    margin-left: auto;
+    padding-right: 1em;
+}
+
+.navigationButton {
+    width: 2.5em;
+    color: #8c8f92;
 }
 
 #orderForm {
@@ -32,8 +64,16 @@ h3 {
     text-align: center;
 }
 
+#orderForm .orderImage {
+    height: 16em;
+    background-color: #969FA6;
+    border: 0;
+    margin: -1.5em -1.5em 0 -1.5em;
+}
+
 #orderForm h2 {
     color: #FFF;
+    font-size: 250%;
     text-align: left;
 }
 
@@ -44,8 +84,8 @@ h3 {
 
 #orderForm input {
     width: 100%;
-    font-size: 1em;
-    padding: .8em;
+    font-size: 1.2em;
+    padding: 1rem;
     margin-bottom: .1em;
     border-radius: .3em;
     border: 0;
@@ -139,10 +179,11 @@ hr {
     margin-right: -1em;
 }
 
-.dishCard .dishPriceBlock button {
+.dishCard .dishPriceBlock button, .restaurantCard .restaurantActions button {
     background-color: #5FB038;
     color: #FFF;
-    font-size: 1em;
+    font-size: .9em;
+    font-weight: 600;
     padding: 0.4em 1.2em;
     border-radius: .3em;
     border: 0;
@@ -162,13 +203,36 @@ hr {
     margin-top: .5em;
 }
 
-.dishCard .dishRatings .checked {
+.checked {
     color: orange;
 }
 
 #mainFeatures {
     background-color: #ED6F41;
-    padding: 1.5em;
+    padding: 1.8em 1.5em;
+    color: #FFF;
+}
+
+#mainFeatures h3 {
+    font-size: 140%;
+    font-weight: 900;
+}
+
+#mainFeatures .whiteBackgroundCircle {
+    width: 5em;
+    background: #FFF;
+    padding: 1em;
+    border-radius: 50%;
+}
+
+.twoCards {
+    display: flex;
+    align-content: space-between;
+}
+
+.featureCard {
+    text-align: center;
+    margin: .5em .8em;
 }
 
 #restaurantsByCuisine {
@@ -176,7 +240,116 @@ hr {
     padding: 1.5em;
 }
 
+.restaurantCard {
+    color: #ADADAD;
+    margin-bottom: 2em;
+}
+
+.restaurantCard h3 {
+    text-transform: initial;
+    margin-bottom: .2em;
+    color: #3E3E3E;
+}
+
+.restaurantImage {
+    height: 12em;
+    background-color: #969FA6;
+    border: 0;
+    border-top-left-radius: .6em;
+    border-top-right-radius: .6em;
+}
+
+.restaurantInformation {
+    background-color: #FFF;
+    border-bottom-left-radius: .6em;
+    border-bottom-right-radius: .6em;
+    padding: .2em 1em;
+}
+
+#adZone {
+    background-color: #F5F5EB;
+    padding: 0.5em 1.5em;
+}
+
+.adBanner {
+    border-radius: .6em;
+    background-color: #292A31;
+    color: #FFF;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 1em;
+}
+
+.adBanner p {
+    font-size: 200%;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
 #featuredRestaurant {
     background-color: #F5F5EB;
     padding: 0.5em 1.5em;
 }
+
+.restaurantCard .restaurantActions {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1.5em;
+    margin-bottom: 1em;
+    padding: .5em 0;
+}
+
+.restaurantCard .restaurantRatings {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.4em 0;
+    margin-top: .5em;
+}
+
+footer {
+    padding: 0.5em 1.5em;
+}
+
+footer h4 {
+    font-size: 110%;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 1em;
+}
+
+footer a {
+    text-decoration: none;
+    color: #898989;
+    display: block;
+    margin-bottom: .5em;
+}
+
+.regroupedLinks {
+    margin-bottom: 2em;
+}
+
+.copyright {
+    padding: 1em 1.5em;
+    font-weight: initial;
+    background-color: #EDEDE5;
+    margin-left: -1.5em;
+    margin-right: -1.5em;
+    margin-bottom: -1.5em;
+}
+
+.copyright p {
+    text-align: center;
+}
+
+.copyright .hezyTheme {
+    color: #79B95B;
+    display: inline-block;
+}
+
+.copyright .copyrightLinks {
+    display: flex;
+    justify-content: space-between;
+}
+
