@@ -156,10 +156,10 @@ nav {
     color: rgb(234, 122, 81);
     text-transform: uppercase; 
     font-family: "Intro"; 
-    font-size: 3em;
+    font-size: 2em;
     text-align: center;
     margin-top: 65px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 .contentOfPage2 {
@@ -180,43 +180,76 @@ nav {
 }
 
 .map{
-    width: 125px;
+    width: 100px;
     margin-right: 30px;
 }
 
 .clipboard{
-    width: 125px;
+    width: 100px;
     margin-right: 30px;
 }
 
 .bag{
-    width: 125px;
+    width: 100px;
     margin-right: 30px;
 }
 
 
 .contentOfPage2 h3 {
-    font-size: 2em;
+    font-size: 1.6em;
     text-transform: uppercase;
     margin: 0;
     font-family: 'Intro';
 }
 
 .block1 {
-    margin: 50px 30px;
+    margin: 30px 25px;
 }
 
 .block2 {
-    margin: 50px 30px;
+    margin: 30px 25px;
 }
 
 .block3 {
-    margin: 50px 30px;
+    margin: 30px 25px;
 }
 
 .contentOfPage2 p {
-    font-size: 22px; 
+    font-size: 16px; 
     color: grey;
     font-family: 'Intro';
-    font-weight: 
+   
+}
+
+@media (min-width: 900px) {
+    .contentOfPage2 {
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: row;
+        margin-bottom: 80px;
+    }
+    .page2 h2 {
+        font-size: 2.3em;
+        margin-bottom: 80px;
+    }
+    .text1 {
+        display: flex;
+        flex-direction: column;
+    }
+    .map, .clipboard, .bag {
+        width: 80px;
+    }
+    .contentOfPage2 h3 {
+        font-size: 1.3em;
+    }
+    .block1, .block2, .block3 {
+        margin: 0 0 0 60px;
+    }
+    .block3 {
+        margin-right: 60px;
+    }
+    .contentOfPage2 p {
+        width: 200px;
+    }
+
 }
