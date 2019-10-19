@@ -57,6 +57,9 @@ nav{
   margin-top:10px;
 }
 
+.menu {
+  display:none;
+}
 .nav-right{ 
   width:30%;
   display:flex;
@@ -454,6 +457,7 @@ footer ul li {
     
   .nav-left {
     padding-left: 40px;
+    width:30%
   }
   
   .nav-left p {
@@ -464,6 +468,32 @@ footer ul li {
   
   .nav-left img {
     width:16vw;
+  }
+
+  .nav-right {
+    display:none; 
+  }
+
+  .menu {
+    display:block;
+  }
+
+  .menu ul {
+    display:flex; 
+    margin-top:2.3em;
+    align-items: center;
+  }
+
+  .menu ul li  a{
+    font-size:120%;
+    margin:1em 1em; 
+    padding-right:10px;
+    color: black;
+    font-weight: bold;
+  }
+  .menu li a {
+    text-decoration: none;
+
   }
 
   header { 
