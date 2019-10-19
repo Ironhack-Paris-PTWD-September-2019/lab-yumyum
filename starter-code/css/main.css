@@ -11,58 +11,133 @@ img {
     display:block;
 }
 
-
-
 h2 {
-    color:orange;
+    color:#F96E45;
+    font-size: 2em;
     font-family: "Intro";
     font-weight: 900;
     text-transform: uppercase;
+    text-align: center;
+    
 }
+
+/* ##    ##    ###    ##     ##  */
+/* ###   ##   ## ##   ##     ##  */
+/* ####  ##  ##   ##  ##     ##  */
+/* ## ## ## ##     ## ##     ##  */
+/* ##  #### #########  ##   ##   */
+/* ##   ### ##     ##   ## ##    */
+/* ##    ## ##     ##    ###     */
+
+.masthead {
+    display:flex;
+    padding:1em;
+}
+
+.masthead .hiddenMobile {
+    display: none;
+}
+
+.mastheadRight {
+    display: flex;
+    margin-left: auto;
+    align-items: flex-start;
+    justify-content: right;
+    margin-left: auto;
+  
+}
+
+.mastheadRight img {
+    width:1.5em;
+ }
+
+
+/* ##     ## ########    ###    ########  ######## ########   */
+/* ##     ## ##         ## ##   ##     ## ##       ##     ##  */
+/* ##     ## ##        ##   ##  ##     ## ##       ##     ##  */
+/* ######### ######   ##     ## ##     ## ######   ########   */
+/* ##     ## ##       ######### ##     ## ##       ##   ##    */
+/* ##     ## ##       ##     ## ##     ## ##       ##    ##   */
+/* ##     ## ######## ##     ## ########  ######## ##     ##  */
+
+
 
 header h2 {
     color : white;
     text-align: center;
+    
 }
 
 input {
     height : 4em;
     width: 90vw;
     text-align: center;
+   
 }
+
+#pin {
+    background: white no-repeat;
+    background-image : url(../images/pin.svg);
+    background-size: 2em;
+    background-position-x: 2em;
+    background-position-y: center;
+}
+
+#bbq {
+    background: white no-repeat;
+    background-image : url(../images/bbq.svg);
+    background-size: 2em;
+    background-position-x: 2em;
+    background-position-y: center;
+}
+
+
 form {
     display:flex;
     flex-direction:column;
     align-items: center;
     justify-content: center;
+    
 }
 
 .headerRequest {
-    background : green;
+    background: rgb(116,204,82);
+    background: linear-gradient(180deg, rgba(184,220,52,1) 0%, rgba(160,212,67,1) 60%,  rgba(116,204,82,1)100%);
     padding : 2em;
 }
 
 header button {
     background: #FA7344;
-    padding : 1em;
     margin-top:1em;
+    padding:1em;
+    box-shadow:none;
+    border:0 none;
     color:white;
-    border-radius: 1px;
-    
-
+    font-weight: bold;
+    border-radius : 0.25em;
+    font-weight: bold;
+    text-transform: uppercase;
+ 
 }
 
 #btn {
-    
-    margin-right: auto;
-    
-    /*  */
-}
+     margin-right: auto;
+ }
+
+ /* ##      ##  #######  ########  ##    ##  ######   */
+ /* ##  ##  ## ##     ## ##     ## ##   ##  ##    ##  */
+ /* ##  ##  ## ##     ## ##     ## ##  ##   ##        */
+ /* ##  ##  ## ##     ## ########  #####     ######   */
+ /* ##  ##  ## ##     ## ##   ##   ##  ##         ##  */
+ /* ##  ##  ## ##     ## ##    ##  ##   ##  ##    ##  */
+  /* ###  ###   #######  ##     ## ##    ##  ######   */
+
 #works {
     margin :1em;
 }
 #works img {
     width:80px;
+   
 }
     
 #works article {
@@ -75,41 +150,444 @@ align-items: center;
     margin-left : 1em;
 }
 
+/* ########  ####  ######  ##     ## ########  ######   */
+/* ##     ##  ##  ##    ## ##     ## ##       ##    ##  */
+/* ##     ##  ##  ##       ##     ## ##       ##        */
+/* ##     ##  ##   ######  ######### ######    ######   */
+/* ##     ##  ##        ## ##     ## ##             ##  */
+/* ##     ##  ##  ##    ## ##     ## ##       ##    ##  */
+/* ########  ####  ######  ##     ## ########  ######   */
+
+
+.container {
+    background :#F5F5EB;
+    padding-top:1em;
+    padding-bottom:1em;
+}
+
+.container article {
+    background : white;
+    display : block;
+    border-radius:0.5em;
+    margin:1em;
+    position : relative;
+
+}
+
+.container img {
+    -moz-border-radius:0.5em 0.5em 0 0;
+    -webkit-border-radius:0.5em 0.5em 0 0;
+    border-radius:0.5em 0.5em 0 0;
+  
+}
+
+h4 {
+    color : grey;
+    display:block;
+}
+
+
+.underImg {
+    margin:1em;
+    padding:1em;
+}
+
+.buy {
+    display: flex;
+    align-items: space-between;
+    margin-bottom: 1em;
+   
+}
+
+.buy button {
+    background-color: #5FB038;
+    display: block;
+    margin-left:auto;
+    margin-right : 1em;
+    border-radius : 0.25em;
+    padding:1em;
+    box-shadow:none;
+    border:0 none;
+    color:white;
+    font-weight: bold;
+
+}
+
+.notation {
+    display:flex;
+    justify-content: space-between;
+    
+}
+
+.stars {
+    display:flex;
+    width : 1em;
+}
+
+.hiddenDesktop {
+    visibility: visible;
+    
+}
+
+.hiddenMobile {
+    visibility: collapse;
+    
+}
+
+.allArticles .hiddenMobile {
+    display: none;
+
+}
+
+/*    ###     ######  #### ########  ########  */
+/*   ## ##   ##    ##  ##  ##     ## ##        */
+/*  ##   ##  ##        ##  ##     ## ##        */
+/* ##     ##  ######   ##  ##     ## ######    */
+/* #########       ##  ##  ##     ## ##        */
+/* ##     ## ##    ##  ##  ##     ## ##        */
+/* ##     ##  ######  #### ########  ########    */
 
 aside {
-    background:#FA7344;
+    background: rgb(248,110,69);
+    background: linear-gradient(180deg, rgba(248,110,69,1) 0%, rgba(241,72,79,1) 54%, rgba(238,59,81,1) 100%);
     display:flex;
     flex-wrap: wrap;
-    
-    
+    padding:2em 1em;
+   
 }
 
 aside img {
     margin : auto;
-    width: 30%;
+    width: 60%;
     background-color: white;
+    border-radius:50%;
+    padding:1em;
+    
 
 }
+
+
+
 aside article {
-     width : 45%;
-     margin-left:auto;
+    width : 43%;
+    margin-left:auto;
     margin-right:auto;
     text-align: center;
     color:white;
+    padding : 0.5em;
      
  }
 
  aside h2 {
     color:white;
+    font-size:30px;
  }
+
+    
+
+ /* ########     ###    ##    ## ##    ## ######## ########   */
+ /* ##     ##   ## ##   ###   ## ###   ## ##       ##     ##  */
+ /* ##     ##  ##   ##  ####  ## ####  ## ##       ##     ##  */
+ /* ########  ##     ## ## ## ## ## ## ## ######   ########   */
+ /* ##     ## ######### ##  #### ##  #### ##       ##   ##    */
+ /* ##     ## ##     ## ##   ### ##   ### ##       ##    ##   */
+ /* ########  ##     ## ##    ## ##    ## ######## ##     ##  */
+
 #banner {
+   
     background: black;
     color :white;
+    width: 100vw;
+    height: 50vh;
+    text-transform:uppercase;
+    font-weight: bolder;
+    display : flex;
+    align-items:center;
+    justify-content: center;
+   
+}
+
+#banner p {
+   font-size:2em;
+    width: 70%;
+    text-align:center;
+}
+
+
+.twoButtons {
+    display:flex;
+    justify-content: space-between;
+    
+}
+
+.twoButtons button {
+    background:#5FB038;
+    margin-bottom:1em;
+    padding:1em;
+    box-shadow:none;
+    border:0 none;
+    color:white;
+    font-weight: bold;
+    border-radius : 0.25em;
 
 }
 
+/* ########  #######   #######  ######## ######## ########   */
+/* ##       ##     ## ##     ##    ##    ##       ##     ##  */
+/* ##       ##     ## ##     ##    ##    ##       ##     ##  */
+/* ######   ##     ## ##     ##    ##    ######   ########   */
+/* ##       ##     ## ##     ##    ##    ##       ##   ##    */
+/* ##       ##     ## ##     ##    ##    ##       ##    ##   */
+/* ##        #######   #######     ##    ######## ##     ##  */
+
+footer {
+    padding: 0;
+
+}
+
+footer .articles {
+    padding:1em;
+}
+
+footer h2 {
+    text-align:left;
+    color:black;
+    font-size:1 em;
+    margin-right:1em;
+}
+
+footer ul{
+    margin-right:1em;
+    padding-left :0;
+}
+
+footer li {
+    list-style: none;
+    list-style:none;
+    
+    padding-bottom:1em;
+}
+
+footer a {
+    text-decoration: none;
+    color:grey;
+}
+
+address {
+    background: #EDEDE5;
+    padding-top:1em;
+   
+}
+address span {
+    color:green;
+}
+address a {
+    display :inline-block;
+    color:black;
+    
+    padding-right:2em;
+    padding-bottom:1em;
+    padding-top:1em;
+}
+
+.copy {
+    display: block;
+    margin:0;
+    padding-left: 1em;
+}
+
+/* #######     ##     ## ######## ########  ####    ###     */
+/* ##     ##    ###   ### ##       ##     ##  ##    ## ##    */
+/* ## ### ##    #### #### ##       ##     ##  ##   ##   ##   */
+/* ## ### ##    ## ### ## ######   ##     ##  ##  ##     ##  */
+/* ## #####     ##     ## ##       ##     ##  ##  #########  */
+/* ##           ##     ## ##       ##     ##  ##  ##     ##  */
+ /* #######     ##     ## ######## ########  #### ##     ##       */
+
 @media (min-width:900px){
+
+/* ##    ##    ###    ##     ##  */
+/* ###   ##   ## ##   ##     ##  */
+/* ####  ##  ##   ##  ##     ##  */
+/* ## ## ## ##     ## ##     ##  */
+/* ##  #### #########  ##   ##   */
+/* ##   ### ##     ##   ## ##    */
+/* ##    ## ##     ##    ###     */
+
+.mastheadLeft img {
+    width: 80%;
+
+}
+
+.masthead{
+align-items: center;
+
+}
+.menu {
+margin-left: auto;
+}
+
+.menu ul li {
+    display: inline;
+    font-size: 125%;
+    line-height: 90px;
+    padding:0 1em;
+  
    }
+
+.menu ul a {
+    text-decoration: none;
+    color:grey;
+    
+}
+
+.hiddenMobile {
+    visibility: visible;
+  
+}
+.masthead .hiddenMobile{
+    display: block;
+}
+.allArticles .hiddenMobile {
+    display: block;
+
+}
+
+.hiddenDesktop {
+    visibility: collapse;
+    display: none;
+}
+
+/* ##     ## ########    ###    ########  ######## ########   */
+/* ##     ## ##         ## ##   ##     ## ##       ##     ##  */
+/* ##     ## ##        ##   ##  ##     ## ##       ##     ##  */
+/* ######### ######   ##     ## ##     ## ######   ########   */
+/* ##     ## ##       ######### ##     ## ##       ##   ##    */
+/* ##     ## ##       ##     ## ##     ## ##       ##    ##   */
+/* ##     ## ######## ##     ## ########  ######## ##     ##  */
+
+header {
+    max-width: 100%;
+}
+
+header h2 {
+    
+    width: 50%;
+    text-align: left;
+}
+
+#secondHeader {
+    display:flex;
+}
+
+header img {
+    width:50%;
+}
+
+form {
+    align-items: flex-start;
+    justify-content: left;
+}
+.headerRequest{
+    width:50%;
+    justify-content: left;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input {
+    width: 200%;
+    justify-content: left;
+    
+    
+}
+
+/* ##      ##  #######  ########  ##    ##  ######   */
+ /* ##  ##  ## ##     ## ##     ## ##   ##  ##    ##  */
+ /* ##  ##  ## ##     ## ##     ## ##  ##   ##        */
+ /* ##  ##  ## ##     ## ########  #####     ######   */
+ /* ##  ##  ## ##     ## ##   ##   ##  ##         ##  */
+ /* ##  ##  ## ##     ## ##    ##  ##   ##  ##    ##  */
+  /* ###  ###   #######  ##     ## ##    ##  ######   */
+
+#works article {
+    width:30%;
+}
+
+#works .articles {
+    display: flex;
+    justify-content:space-between;
+
+}
+
+/* ########  ####  ######  ##     ## ########  ######   */
+/* ##     ##  ##  ##    ## ##     ## ##       ##    ##  */
+/* ##     ##  ##  ##       ##     ## ##       ##        */
+/* ##     ##  ##   ######  ######### ######    ######   */
+/* ##     ##  ##        ## ##     ## ##             ##  */
+/* ##     ##  ##  ##    ## ##     ## ##       ##    ##  */
+/* ########  ####  ######  ##     ## ########  ######   */
+
+.allArticles {
+   display: flex ;
+   flex-wrap: wrap;
+   justify-content: center ;
+
+   margin: auto;
+
+}
+.container article {
+    width: 20%;
+    
+}
+
+
+/* ###     ######  #### ########  ########  */
+/* ## ##   ##    ##  ##  ##     ## ##        */
+/* ##   ##  ##        ##  ##     ## ##        */
+/* ##     ##  ######   ##  ##     ## ######    */
+/* #########       ##  ##  ##     ## ##        */
+/* ##     ## ##    ##  ##  ##     ## ##        */
+/* ##     ##  ######  #### ########  ########    */
+
+aside article {
+    width : 21%;
+
+}
+
+aside h2 {
+    font-size: 25px;
+}
+
+
+/* ########  #######   #######  ######## ######## ########   */
+/* ##       ##     ## ##     ##    ##    ##       ##     ##  */
+/* ##       ##     ## ##     ##    ##    ##       ##     ##  */
+/* ######   ##     ## ##     ##    ##    ######   ########   */
+/* ##       ##     ## ##     ##    ##    ##       ##   ##    */
+/* ##       ##     ## ##     ##    ##    ##       ##    ##   */
+/* ##        #######   #######     ##    ######## ##     ##  */
+
+footer .articles{
+  display: flex;
+}
+
+footer article {
+    width: 25%;
+    margin-right: 5em;
+}
+
+footer h2 {
+    font-size: 1.25em;
+}
+
+.copy {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+}
 
 
   

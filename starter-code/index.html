@@ -4,247 +4,563 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css/main.css"/>
-  <title></title>
+  <title>YumYum</title>
   <link rel="stylesheet" href="fonts/Intro/index.css" />
   <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+  
 </head>
 <body>
   <header>
     <div id="premierEcran">
         <nav>
           <div class="masthead">
-            <img src="images/logo.svg" alt="logo YUMYUM">
-            <h4>Local Cuisine Delivered</h4>
-          </div>
+            <div class="mastheadLeft">
+             <img src="images/logo.svg" alt="logo YUMYUM">
+                     
+              <h4>Local Cuisine Delivered</h4>
+            </div>
 
-          <div>
-            <a href="javascript:void 0;">Menu</a>
-            <a href="javascript:void 0;">Panier</a>
-          </div>
+            <div class="mastheadRight hiddenDesktop">
+            <a href="javascript:void 0;"><img src="images/hamburger.svg" alt="hamburger"></a>
+            <a href="javascript:void 0;"><img src="images/cart.svg" alt="cart"></a>
+            </div>
+
+            <div class="menu hiddenMobile">
+              <ul>
+                  <li><a href="#"> Home </a></li>
+                  <li><a href="#"> Restaurant </a></li>
+                  <li><a href="#"> Offers </a></li>
+                  <li><a href="#"> Dishes </a></li>
+                  <li><a href="#"> Cuisine </a></li>
+                  <li><a href="#"> Contact </a></li>
+              </ul>
+            </div>
+          </div>   
         </nav>
-        
-
+      </div>   
+  
+  
+    <div id="secondHeader">
+    
         <img src="https://via.placeholder.com/800x600" alt="image grise">
 
-  </div>
-    
-    <div class="headerRequest">
-    <h2>Order from restaurants around you</h2>
-    <form action="javascript:void 0;">
-       <label>
-       
-        <input type="text" placeholder="Enter your address" name="address">
-      </label>
-    
-      <label>
-        
-        
-        <input type="text" placeholder="What would you like" name="foodtype">
-      </label>
+        <div class="headerRequest">
+          <h2>Order from restaurants around you</h2>
+          <form action="javascript:void 0;">
+            <label>   
+              <input id="pin" type="text" placeholder="Enter your address" name="address">
+            </label>
+              
+            <label>
+              <input id="bbq" type="text" placeholder="What would you like" name="foodtype">
+             </label>
 
-    <div id="btn">
-        <button type="submit">Find a food</button>
-      </div> 
-    </form>
-  </div>
+            <div id="btn">
+              <button type="submit">Find a food</button>
+            </div> 
+          </form>
+          </div>
+    </div>
 
   </header>
 
   <section id="works">
-
-    
+   
     <h2>How it works</h2>
+      <div class="articles">
+      <article>
+        <img src="images/map.png" alt="map">
+        <div>
+          <h3>1. Search</h3>
+          <p>Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue.</p>
+        </div>
+      </article>
 
-    <article>
-    <img src="images/map.png" alt="map">
-    <div>
-    <h3>1. Search</h3>
-    <p>Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue.</p>
-  </div>
-    </article>
-    <article>
-    <img src="images/clipboard.png" alt="clipboard">
-    <div>
-    <h3>2. Order</h3>
-    <p>Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus.</p>
-  </div>  
-  </article>
-    <article>
-    <img src="images/bag.png" alt="clip">
-    <div>
-    <h3>3. Eat</h3>
-    <p>Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus.</p>
-  </div>
-  </article>
+      <article>
+        <img src="images/clipboard.png" alt="clipboard">
+        <div>
+          <h3>2. Order</h3>
+          <p>Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus.</p>
+        </div>  
+      </article>
+
+      <article>
+        <img src="images/bag.png" alt="clip">
+        <div>
+          <h3>3. Eat</h3>
+          <p>Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus.</p>
+        </div>
+      </article>
+    </div>
   </section>
 
-  <section>
+  <section class="container dishes" >
     <h2>Dishes</h2>
+    <div class="allArticles">
+     
+        <article>
+            <img src="https://via.placeholder.com/800x600" alt="image grise">
+            <div class="underImg">
+            <h3>Pasta with Lamb Ragù: Coppa, Boston</h3>
+            <h4>Christine Quinlan</h4>
 
-    <article>
-        <img src="https://via.placeholder.com/800x600" alt="image grise">
-        <h3>Pasta with Lamb Ragù: Coppa, Boston</h3>
-        <h4>Christine Quinlan</h4>
-        <div class="price">$ 19.95</div>
-        <button type="submit">Buy Now</button>
-        <div class="notation">
-        5 stars
-        1,679 Ratings
-        </div>
-   
-  </article>
-    <article></article>
-    <img src="https://via.placeholder.com/800x600" alt="image grise">
-    <h3>Pasta with Lamb Ragù: Coppa, Boston</h3>
-    <h4>Christine Quinlan</h4>
-    <div class="price">$ 5.99</div>
-    <button type="submit">Buy Now</button>
-    <div class="notation">
-    4 stars
-    12 Ratings
-  </div>
-  </article>
-    <article>
-        <img src="https://via.placeholder.com/800x600" alt="image grise">
-        <h3>Pork Rillette Hand Pies: Olympic Provisions; Portland, OR</h3>
-        <h4>Joey Pepperoni's Pizza</h4>
-        <div class="price">$ 10.80</div>
-        <button type="submit">Buy Now</button>
-    <div class="notation">
-        4 stars
-      33 Ratings
-  </div>
-  </article>
+              <div class="buy">
+                <div class="price"><strong>$ 19.95</strong></div>
+                  <button type="submit">Buy Now</button>
+                </div>
+
+                <div class="notation">
+                  <div class="stars">
+                    <img  src="images/star.svg" alt="star">
+                    <img src="images/star.svg" alt="star">
+                    <img src="images/star.svg" alt="star">
+                    <img src="images/star.svg" alt="star">
+                    <img src="images/star.svg" alt="star">
+                  </div>
+                  <div class="rating">
+                      1,679 Ratings
+                  </div>
+                </div>
+              </div>
+        </article>
+
+        <article>
+          <img src="https://via.placeholder.com/800x600" alt="image grise">
+          <div class="underImg">
+            <h3>Pasta with Lamb Ragù: Coppa, Boston</h3>
+            <h4>Christine Quinlan</h4>
+              <div class="buy">
+                <div class="price"><strong>$ 5.99</strong></div>
+                  <button type="submit">Buy Now</button>
+                </div>
+
+                <div class="notation">
+                  <div class="stars">
+                    <img  src="images/star.svg" alt="star">
+                    <img src="images/star.svg" alt="star">
+                    <img src="images/star.svg" alt="star">
+                    <img src="images/star.svg" alt="star">
+                    <img src="images/starGray.svg" alt="starGray">
+                  </div>
+                  <div class="rating">
+                      <p>12 Ratings</p>
+                  </div>
+                </div>
+              </div>
+        </article>
+        
+        <article>
+          <img src="https://via.placeholder.com/800x600" alt="image grise">
+          <div class="underImg">
+            <h3>Pork Rillette Hand Pies: Olympic Provisions; Portland, OR</h3>
+            <h4>Joey Pepperoni's Pizza</h4>
+              <div class="buy">
+                <div class="price"><strong>$ 10.80</strong></div>
+                  <button type="submit">Buy Now</button>
+                </div>
+
+                <div class="notation">
+                  <div class="stars">
+                    <img  src="images/star.svg" alt="star">
+                    <img src="images/star.svg" alt="star">
+                    <img src="images/star.svg" alt="star">
+                    <img src="images/star.svg" alt="star">
+                    <img src="images/starGray.svg" alt="starGray">
+                  </div>
+                  <div class="rating">
+                      33 Ratings
+                  </div>
+                </div>
+              </div>
+        </article>
+           
+        <article class="hiddenMobile">
+            <img src="https://via.placeholder.com/800x600" alt="image grise">
+            <div class="underImg">
+            <h3>Pasta with Lamb Ragù: Coppa, Boston</h3>
+            <h4>Christine Quinlan</h4>
+
+              <div class="buy">
+                <div class="price"><strong>$ 19.95</strong></div>
+                  <button type="submit">Buy Now</button>
+                </div>
+
+                <div class="notation">
+                  <div class="stars">
+                    <img  src="images/star.svg" alt="star">
+                    <img src="images/star.svg" alt="star">
+                    <img src="images/star.svg" alt="star">
+                    <img src="images/star.svg" alt="star">
+                    <img src="images/star.svg" alt="star">
+                  </div>
+                  <div class="rating">
+                      1,679 Ratings
+                  </div>
+                </div>
+              </div>
+        </article>
+
+        <article class="hiddenMobile">
+          <img src="https://via.placeholder.com/800x600" alt="image grise">
+          <div class="underImg">
+            <h3>Pasta with Lamb Ragù: Coppa, Boston</h3>
+            <h4>Christine Quinlan</h4>
+              <div class="buy">
+                <div class="price"><strong>$ 5.99</strong></div>
+                  <button type="submit">Buy Now</button>
+                </div>
+
+                <div class="notation">
+                  <div class="stars">
+                    <img  src="images/star.svg" alt="star">
+                    <img src="images/star.svg" alt="star">
+                    <img src="images/star.svg" alt="star">
+                    <img src="images/star.svg" alt="star">
+                    <img src="images/starGray.svg" alt="starGray">
+                  </div>
+                  <div class="rating">
+                      <p>12 Ratings</p>
+                  </div>
+                </div>
+              </div>
+        </article>
+        
+        <article class="hiddenMobile">
+          <img src="https://via.placeholder.com/800x600" alt="image grise">
+          <div class="underImg">
+            <h3>Pork Rillette Hand Pies: Olympic Provisions; Portland, OR</h3>
+            <h4>Joey Pepperoni's Pizza</h4>
+              <div class="buy">
+                <div class="price"><strong>$ 10.80</strong></div>
+                  <button type="submit">Buy Now</button>
+                </div>
+
+                <div class="notation">
+                  <div class="stars">
+                    <img  src="images/star.svg" alt="star">
+                    <img src="images/star.svg" alt="star">
+                    <img src="images/star.svg" alt="star">
+                    <img src="images/star.svg" alt="star">
+                    <img src="images/starGray.svg" alt="starGray">
+                  </div>
+                  <div class="rating">
+                      33 Ratings
+                  </div>
+                </div>
+              </div>
+        </article>
+
+        <article class="hiddenMobile">
+            <img src="https://via.placeholder.com/800x600" alt="image grise">
+            <div class="underImg">
+            <h3>Pasta with Lamb Ragù: Coppa, Boston</h3>
+            <h4>Christine Quinlan</h4>
+
+              <div class="buy">
+                <div class="price"><strong>$ 19.95</strong></div>
+                  <button type="submit">Buy Now</button>
+                </div>
+
+                <div class="notation">
+                  <div class="stars">
+                    <img  src="images/star.svg" alt="star">
+                    <img src="images/star.svg" alt="star">
+                    <img src="images/star.svg" alt="star">
+                    <img src="images/star.svg" alt="star">
+                    <img src="images/star.svg" alt="star">
+                  </div>
+                  <div class="rating">
+                      1,679 Ratings
+                  </div>
+                </div>
+              </div>
+        </article>
+
+        <article class="hiddenMobile">
+          <img src="https://via.placeholder.com/800x600" alt="image grise">
+          <div class="underImg">
+            <h3>Pasta with Lamb Ragù: Coppa, Boston</h3>
+            <h4>Christine Quinlan</h4>
+              <div class="buy">
+                <div class="price"><strong>$ 5.99</strong></div>
+                  <button type="submit">Buy Now</button>
+                </div>
+
+                <div class="notation">
+                  <div class="stars">
+                    <img  src="images/star.svg" alt="star">
+                    <img src="images/star.svg" alt="star">
+                    <img src="images/star.svg" alt="star">
+                    <img src="images/star.svg" alt="star">
+                    <img src="images/starGray.svg" alt="starGray">
+                  </div>
+                  <div class="rating">
+                      <p>12 Ratings</p>
+                  </div>
+                </div>
+              </div>
+        </article>
+        
+      
+    </div>
   </section>
 
   <aside>
 
     <article>
       <img src="images/phone.svg" alt="phone">
-    <h2>Easy Online</h2>
-    <p>No need to pick up the phone.Quick and accurate ordering is here.</p>
+      <h2>Easy Online</h2>
+      <p>No need to pick up the phone.Quick and accurate ordering is here.</p>
     </article>
-     <article>
-        <img src="images/chicken.svg" alt="chicken">
-    <h2>12 000+ Menus</h2>
-    <p>Discovery new places — order your usual and throw away those paper</p>
-  </article>
-  <article>
+
+    <article>
+      <img src="images/chicken.svg" alt="chicken">
+      <h2>12 000+ Menus</h2>
+      <p>Discovery new places — order your usual and throw away those paper</p>
+    </article>
+
+    <article>
       <img src="images/percent.svg" alt="percent">
-    <h2>Discounts & Deals</h2>
-    <p>Get exclusive offers and save on your delivery favorites</p>
-  </article>
-  <article>
+      <h2>Discount & Deals</h2>
+      <p>Get exclusive offers and save on your delivery favorites</p>
+    </article>
+
+    <article>
       <img src="images/mobile.svg" alt="mobile">
-    <h2>Anytime, Anywhere</h2>
-    <p>On-the-go? Che out our conveniant apps for iOS and Android</p>
-  </article>
+      <h2>Anytime, Anywhere</h2>
+      <p>On-the-go? Che out our conveniant apps for iOS and Android</p>
+    </article>
   </aside>
 
-  <section>
+  <section class="restaurant container">
     
     <h2>Restaurant by Cuisine</h2>
-   
-    <article>
-      <img src="https://via.placeholder.com/800x600" alt="image grise">
-    <h3>A La Carte</h3>
-    <h4>189 dishes</h4>
-  </article>
+    <div class=allArticles>
+      <article>
+        <img src="https://via.placeholder.com/800x600" alt="image grise">
+        <div class="underImg">
+          <h3>A La Carte</h3>
+          <h4>189 dishes</h4>
+        </div>
+      </article>
 
-  <article>
-    <img src="https://via.placeholder.com/800x600" alt="image grise">
-    <h3>Fast Food</h3>
-    <h4>3,750 dishes</h4>
-  </article>
-  <article>
-    <img src="https://via.placeholder.com/800x600" alt="image grise">
-    <h3>Italian</h3>
-    <h4>708 dishes</h4>
-  </article>
+      <article>
+        <img src="https://via.placeholder.com/800x600" alt="image grise">
+        <div class="underImg">
+          <h3>Fast Food</h3>
+          <h4>3,750 dishes</h4>
+        </div>
+      </article>
+
+      <article>
+        <img src="https://via.placeholder.com/800x600" alt="image grise">
+        <div class="underImg">
+          <h3>Italian</h3>
+        <h4>708 dishes</h4>
+        </div>
+      </article>
+
+      <article class="hiddenMobile">
+        <img src="https://via.placeholder.com/800x600" alt="image grise">
+        <div class="underImg">
+          <h3>A La Carte</h3>
+          <h4>189 dishes</h4>
+        </div>
+      </article>
+
+      <article class="hiddenMobile">
+        <img src="https://via.placeholder.com/800x600" alt="image grise">
+        <div class="underImg">
+          <h3>Fast Food</h3>
+          <h4>3,750 dishes</h4>
+        </div>
+      </article>
+
+      <article  class="hiddenMobile">
+        <img src="https://via.placeholder.com/800x600" alt="image grise">
+        <div class="underImg">
+          <h3>Italian</h3>
+        <h4>708 dishes</h4>
+        </div>
+      </article>
+
+      <article class="hiddenMobile">
+        <img src="https://via.placeholder.com/800x600" alt="image grise">
+        <div class="underImg">
+          <h3>A La Carte</h3>
+          <h4>189 dishes</h4>
+        </div>
+      </article>
+
+      <article class="hiddenMobile">
+        <img src="https://via.placeholder.com/800x600" alt="image grise">
+        <div class="underImg">
+          <h3>Fast Food</h3>
+          <h4>3,750 dishes</h4>
+        </div>
+      </article>
+
+     </div>
   </section>
 
-  <div id="banner">banner from hezy theme</div>
+  <div id="banner">
+    <p>banner from hezy theme</p>
+  </div>
 
-  <section>
+  <section class="container">
     <h2>Featured Restaurant</h2>
-    
-    <article></article>
-    <img src="https://via.placeholder.com/800x600" alt="image grise">
-    <h3>Acquerello</h3>
-    <h4>Italian</h4>
-    <div class="twoButtons">
-    <button type="submit">View menu</button>
-    <button type="submit">Buy Now</button>
-  </div>
-    <div class="notation">
-    4 stars
-    31 Reviews
-  </div>
-  </article>
-  <article>
-    <img src="https://via.placeholder.com/800x600" alt="image grise">
-    Addision at The Grand Del Mar
-    Contemporary French
-    <div class="twoButtons">
-    <button type="submit">View menu</button>
-    <button type="submit">Buy Now</button>
-  </div>
-    <div class="notation">
-    5 stars
-    419 Reviews
-  </div>
-  </article>
+    <div class=allArticles>
+      <article>
+        <img src="https://via.placeholder.com/800x600" alt="image grise">
+        <div class="underImg">
+          <h3>Acquerello</h3>
+          <h4>Italian</h4>
+          <div class="twoButtons">
+            <button type="submit">View menu</button>
+            <button type="submit">Buy Now</button>
+          </div>
+
+          <div class="notation">
+            <div class="stars">
+              <img  src="images/star.svg" alt="star">
+              <img src="images/star.svg" alt="star">
+              <img src="images/star.svg" alt="star">
+              <img src="images/star.svg" alt="star">
+              <img src="images/starGray.svg" alt="starGray">
+            </div>
+            <div class="rating">
+              31 Reviews
+            </div>
+          </div>
+        </div> 
+      </article>
+
+      <article>
+        <img src="https://via.placeholder.com/800x600" alt="image grise">
+        <div class="underImg">
+          <h3>Addision at The Grand Del Mar</h3>
+          <h4>Contemporary French </h4>
+          <div class="twoButtons">
+            <button type="submit">View menu</button>
+            <button type="submit">Buy Now</button>
+          </div>
+
+          <div class="notation">
+            <div class="stars">
+              <img  src="images/star.svg" alt="star">
+              <img src="images/star.svg" alt="star">
+              <img src="images/star.svg" alt="star">
+              <img src="images/star.svg" alt="star">
+              <img src="images/star.svg" alt="star">
+            </div>
+            <div class="rating">
+              419 Reviews
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article class="hiddenMobile">
+        <img src="https://via.placeholder.com/800x600" alt="image grise">
+        <div class="underImg">
+          <h3>Acquerello</h3>
+          <h4>Italian</h4>
+          <div class="twoButtons">
+            <button type="submit">View menu</button>
+            <button type="submit">Buy Now</button>
+          </div>
+
+          <div class="notation">
+            <div class="stars">
+              <img  src="images/star.svg" alt="star">
+              <img src="images/star.svg" alt="star">
+              <img src="images/star.svg" alt="star">
+              <img src="images/star.svg" alt="star">
+              <img src="images/starGray.svg" alt="starGray">
+            </div>
+            <div class="rating">
+              31 Reviews
+            </div>
+          </div>
+        </div> 
+      </article>
+
+      <article class="hiddenMobile">
+        <img src="https://via.placeholder.com/800x600" alt="image grise">
+        <div class="underImg">
+          <h3>Addision at The Grand Del Mar</h3>
+          <h4>Contemporary French </h4>
+          <div class="twoButtons">
+            <button type="submit">View menu</button>
+            <button type="submit">Buy Now</button>
+          </div>
+
+          <div class="notation">
+            <div class="stars">
+              <img  src="images/star.svg" alt="star">
+              <img src="images/star.svg" alt="star">
+              <img src="images/star.svg" alt="star">
+              <img src="images/star.svg" alt="star">
+              <img src="images/star.svg" alt="star">
+            </div>
+            <div class="rating">
+              419 Reviews
+            </div>
+          </div>
+        </div>
+      </article>
+    </div>
   </section>
 
   <footer>
-    <article>
+    <div class="articles">
+      <article>
        <h2> Get to know us</h2>
-        <a href="#">About AlaCartee  </a>
-        <a href="#"> How Our Ordering Works </a>
-        <a href="#">Blog  </a>
-        <a href="#">Press  </a>
+       <ul>
+          <li> <a href="#">About AlaCartee  </a></li>
+          <li><a href="#"> How Our Ordering Works </a></li>
+          <li><a href="#">Blog  </a></li>
+          <li><a href="#">Press  </a></li>
+        </ul>
+      </article>
 
-  </article>
-  <article>
-    <h2>Business Solutions</h2>
+      <article>
+        <h2>Business Solutions</h2>
+        <ul>
+          <li><a href="#"> Join Our Restaurant </a></li>
+          <li><a href="#"> Network </a></li>
+          <li><a href="#"> Company Accounts </a></li>
+        </ul>
+      </article> 
     
-        <a href="#"> Join Our Restaurant </a>
-        <a href="#"> Network </a>
-        <a href="#"> Company Accounts </a>
-    
-    
-    
-  </article>
+      <article>
+        <h2>Social</h2>
+        <ul>
+            <li><a href="#">Facebook  </a></li>
+            <li><a href="#">Twitter  </a></li>
+            <li><a href="#"> Pinterest </a></li>
+        </ul>
+      </article>
 
-  <article>
-    <h2>Social</h2>
-    <a href="#">Facebook  </a>
-    <a href="#">Twitter  </a>
-    <a href="#"> Pinterest </a>
-    
-
-    
-    
-  </article>
-
-  <article>
-  <h2>Contact Us</h2>
-  <a href="#"> Contact Us </a>
-  <a href="#">Help  </a>
-  <a href="#">Suggev  </a>
-    
-    
-  </article>
+      <article>
+        <h2>Contact Us</h2>
+        <ul>
+          <li><a href="#"> Contact Us </a></li>
+          <li><a href="#">Help  </a></li>
+          <li><a href="#">Suggev  </a></li>
+        </ul>
+      </article>
+    </div>
 
     <address class="copy">
       <div>
-      © 2014 Yum Yum. With love by <span>HezyTheme</span>
-    </div>
-    <div>
-      <a href="#">Terms  </a>
-      <a href="#">Privacy  </a>
-      <a href="#">Contact Us  </a>
-    </div>
+        © 2014 Yum Yum. With love by <span>HezyTheme</span>
+      </div>
+      <div>
+        <a href="#">Terms  </a>
+        <a href="#">Privacy  </a>
+        <a href="#">Contact Us  </a>
+      </div>
     </address>
   </footer>
 </body>
