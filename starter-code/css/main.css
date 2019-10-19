@@ -43,17 +43,24 @@ img {
 } 
 
 h2 {
-    color: white;
+    color: #fa7344;
     margin-top: 0;
     text-align: left;
     font-weight: 900;
-    font-size: 2em;
+    font-size: 25px;
+    letter-spacing: 2px;
+    margin-left: 23px;
+    margin-top: 50px;
 }
 
 #greenSection {
-    background: linear-gradient( #46ff00, #4d7909);
+    background: linear-gradient( #c0da38, #74cc52);
     height: 500px;
     padding: 25px 15px;
+}
+
+input , button {
+    border: none;
 }
 
 #greenSection input {
@@ -66,6 +73,10 @@ h2 {
     background-size: 20px;
     background-repeat: no-repeat;
     background-position: top 17px left 25px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-style: solid;
+    border-bottom-color: grey;
 }
 
 #greenSection input:nth-child(2) {
@@ -73,10 +84,119 @@ h2 {
     background-size: 20px;
     background-repeat: no-repeat;
     background-position: top 17px left 25px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 
 input::placeholder {
     color: grey;
     text-align: center;
-    font-size: 15px;
+    font-size: 17px;
+}
+
+#greenSection button {
+    height: 60px;;
+    width: 170px;
+    background-color: #fa7344;
+    color: white;
+    font-weight: 900;
+    font-size: 17px;
+    border-radius: 5px;
+    margin-top: 8px;
+}
+
+.instructions {
+    display: flex;
+    margin: 70px 0;
+}
+
+.instructions img {
+    height: 80px;
+}
+
+#works {
+    margin: 0px 50px;
+}
+
+#works p {
+    width: 230px;
+    color: grey;
+}
+
+article h3 {
+    margin-top: 7px;
+}
+
+article {
+    margin: 0 20px;
+}
+
+#dishes , #byCuisine {
+    background-color: #f5f5eb;
+}
+
+.rating img {
+    height: 20px;
+}
+
+.price {
+    display: flex;
+    justify-content: space-between;
+}
+
+.price p:nth-child(2){
+    background-color: #5fb038;
+    border-radius: 5px;
+    color: white;
+    padding: 5px 15px;
+}
+
+.greySquare {
+    width: 100%;
+    height: 250px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.dish {
+    margin:40px 25px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.dish article , .cuisine article {
+    padding: 5px;
+}
+
+aside {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background: linear-gradient(#fa7143 , #ee3b51 );
+    height: 610px;
+}
+
+aside img{
+    width: 105px; 
+    padding: 22px;
+    border-radius: 100px;
+    background-color: white;
+}
+
+.orange {
+    text-align: center;
+    margin: 30px;
+    color: white;
+    width: 120px;
+    margin-bottom: 0;
+}
+
+.orange p {
+    font-size: 13px;
+}
+
+.cuisine{
+    margin:40px 25px;
+    background-color: white;
+    border-radius: 5px;
 }

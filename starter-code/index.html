@@ -28,77 +28,145 @@
       <!-- <img src="images/greenSection.png"/> -->
       <form action="javascript:void 0;">
           <input type="text" name="address" placeholder="Enter your address">
-          <input type="text" name="foodtype" placeholder="What would you like">
+          <input type="text" name="foodtype" placeholder="What would you like?">
         <p>
-          <button type="submit">Find a food</button>
+          <button type="submit">FIND A FOOD</button>
         </p>
       </form>
     </section>
   </header>
 
-  <section>
-    <h2>How it works</h2>
-
-    1. Search
-    Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue.
-
-    2. Order
-    Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus.
-
-    3. Eat
-    Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus.
+  <section id="works">
+    <h2>HOW IT WORKS?</h2>
+    <div class="instructions">
+      <img src="images/map.png"/>
+      <article>
+        <h3>1. Search</h3>
+        <p>Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue.</p>      
+      </article>
+    </div>
+    <div class="instructions">
+      <img src="images/clipboard.png"/>
+      <article>
+        <h3>2. Order</h3>
+        <p>Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus.</p>
+      </article>
+    </div>
+    <div class="instructions">
+      <img src="images/bag.png"/>
+      <article>
+        <h3>3. Eat</h3>
+        <p>Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus.</p>
+      </article>
+      </div>
+    </ol>
   </section>
 
-  <section>
+  <section id="dishes">
     <h2>Dishes</h2>
-
-    Pasta with Lamb Ragù: Coppa, Boston
-    Christine Quinlan
-    $ 19.95
-    Buy Now
-    5 stars
-    1,679 Ratings
-
-    Pasta with Lamb Ragù: Coppa, Boston
-    Christine Quinlan
-    $ 5.99
-    Buy Now
-    4 stars
-    12 Ratings
-
-    Pork Rillette Hand Pies: Olympic Provisions; Portland, OR
-    Joey Pepperoni's Pizza
-    $ 10.80
-    Buy Now
-    4 stars
-    33 Ratings
+    <div class="dish">
+      <img class="greySquare" src="https://via.placeholder.com/200x150"/>
+      <article>
+      <p><strong> Pasta with Lamb Ragù:<br> Coppa, Boston</strong></p>
+      <p>Christine Quinlan</p>
+      <div class="price">
+        <p><strong>$ 19.95</strong></p>
+        <p>Buy Now</p>
+      </div>
+      <div class="rating">
+      <img src="images/star.svg"/>
+      <img src="images/star.svg"/>
+      <img src="images/star.svg"/>
+      <img src="images/star.svg"/>
+      <img src="images/star.svg"/>
+      1,679 Ratings >
+      </article>
+      </div>
+    </div>
+    <div class="dish">
+      <img class="greySquare" src="https://via.placeholder.com/200x150"/>
+      <article>
+      <p><strong> Pasta with Lamb Ragù:<br> Coppa, Boston</strong></p>
+      <p>Christine Quinlan</p>
+      <div class="price">
+        <p><strong>$ 5.99</p></strong>
+        <p>Buy Now</p>
+      </div>
+      <div class="rating">
+        <img src="images/star.svg"/>
+        <img src="images/star.svg"/>
+        <img src="images/star.svg"/>
+        <img src="images/star.svg"/>
+      12 Ratings >
+      </article>
+      </div>
+    </div>
+    <div class="dish">
+      <img class="greySquare" src="https://via.placeholder.com/200x150"/>
+      <article>
+      <p><strong>Pork Rillette Hand Pies:<br> Olympic Provisions; Portland, OR</strong></p>
+      <p>Joey Pepperoni's Pizza</p>
+      <div class="price">
+        <p><strong>$ 10.80</strong></p>
+        <p>Buy Now</p>
+      </div>
+      <div class="rating">
+        <img src="images/star.svg"/>
+        <img src="images/star.svg"/>
+        <img src="images/star.svg"/>
+        <img src="images/star.svg"/>
+      33 Ratings >
+      </article>
+      </div>
+    </div>
   </section>
 
   <aside>
-    Easy Online
-    No need to pick up the phone.Quick and accurate ordering is here.
-
-    12 000+ Menus
-    Discovery new places — order your usual and throw away those paper
-
-    Discounts & Deals
-    Get exclusive offers and save on your delivery favorites
-
-    Anytime, Anywhere
-    On-the-go? Che out our conveniant apps for iOS and Android
+    <div class="orange">
+      <img src="images/phone.svg"/>
+      <h3>EASY ONLINE</h3>
+      <p>No need to pick up the phone.Quick and accurate ordering is here.</p>
+    </div>
+    <div class="orange">
+      <img src="images/chicken.svg"/>
+    <h3>12 000+ MENUS</h3>
+    <p>Discovery new places — order your usual and throw away those paper</p>
+    </div>
+    <div class="orange">
+      <img src="images/percent.svg"/>
+      <h3>DISCOUN<br>TS&DEALS</h3>
+      <p>Get exclusive offers and save on your delivery favorites</p>
+    </div>
+    <div class="orange">
+      <img src="images/mobile.svg"/>
+      <h3>ANYTIME,<br>ANYWHERE</h3>
+      <p>On-the-go? Che out our conveniant apps for iOS and Android</p>
+    </div>
   </aside>
 
-  <section>
-    <h2>Restaurant by Cuisine</h2>
-
-    A La Carte
-    189 dishes
-
-    Fast Food
-    3,750 dishes
-
-    Italian
-    708 dishes
+  <section id="byCuisine">
+      <h2>Restaurant by Cuisine</h2>
+      <div class="cuisine">
+      <img class="greySquare" src="https://via.placeholder.com/200x150"/> 
+      <article>
+      <p><strong>A La Carte</strong></p>
+      189 dishes
+      </article>
+    </div>
+    <div class="cuisine">
+      <img class="greySquare" src="https://via.placeholder.com/200x150"/>
+      <article>
+      <p><strong>Fast Food</strong></p>
+      3,750 dishes
+      </article>
+    </div>
+    <div class="cuisine">
+      <img class="greySquare" src="https://via.placeholder.com/200x150"/>
+      <article>
+      <p><strong>Italian</strong></p>
+      708 dishes
+      </article>
+    </div>
   </section>
 
   <div>banner from hezy theme</div>
