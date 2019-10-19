@@ -39,7 +39,6 @@ body{
 nav{
   position:fixed;
   width:100%;
-  height:12vh;
   display:flex;
   justify-content: space-between;
   padding: 10px 10px;
@@ -51,7 +50,7 @@ nav{
   display:flex;
   flex-flow: column;
   justify-content: center;
-  padding-left:40px;
+  padding-left:25px;
 }
 
 .nav-left p {
@@ -81,6 +80,7 @@ header .order {
 }
 
 header .order h1 {
+  padding-top: 1em;
   text-align: center;
   width:90%; 
   margin-right:auto;
@@ -105,12 +105,6 @@ header .order form .form-box.address {
   margin-top:60px;
 }
 
-header form {
-  display:flex;
-  flex-flow: column;
-  justify-content: space-evenly; 
-  align-items: left;
-}
 
 header .form-box input {
   width:60vw;
@@ -118,10 +112,11 @@ header .form-box input {
 }
 
 header .submit {
-margin-top: 75px; 
-margin-bottom: 90px;
+margin-top: 50px; 
+margin-bottom: 40px;
 text-align:center;
-padding: 15px 20px;
+padding: 19px 31px;
+margin-left: 37.5px;
 font-size:150%;
 }
 
@@ -286,7 +281,7 @@ header .order {
   background:linear-gradient(to bottom, #c0da38 0% , #9ed345 33%, #74cc52 100%);
 }
 header .order h1 {
-  font-size:240%; 
+  font-size:229%; 
   font-weight: bold;
   line-height: 120%;
   letter-spacing: 4px;
@@ -294,21 +289,21 @@ header .order h1 {
 }
 
 header .order form .form-box input {
-  font-size: 88%;
+  font-size: 110%;
   font-weight: 300;
 }
 header .order form .address {
 background : white;
-border-top-left-radius: 15px;
-border-top-right-radius: 15px;
-border-bottom: solid 2px grey;
+border-top-left-radius: 5px;
+border-top-right-radius: 5px;
+border-bottom: solid 1px grey;
 
 }
 
 header .order form .foodtype {
   background : white;
-  border-bottom-left-radius: 15px;
-  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
   border-top: solid 2px grey;
   margin-right:auto;
   margin-left:auto;
@@ -483,11 +478,14 @@ footer ul li {
 
   header .empty {
     width:50%;
+    height:auto;
   }
   header .order h1 {
     font-size:268%;
     width: 60%;
     text-align: left;
+    margin-right:auto; 
+    margin-left:0;
   }
 
   header .order form .form-box input {
@@ -506,14 +504,15 @@ header .order form .form-box img{
 
 header .order form .form-box {
   width:35vw;
+  margin-left:0;
+  margin-right:auto;
 }
 
 header form .submit {
-  width: 25vh;
   margin-top: 31px;
-  margin-bottom: 48px;
-  height: 9vh;
-  text-align: left;
+  margin-bottom: 90px;
+  margin-left:0;
+  text-align: center;
   padding: 15px 20px;
   font-size: 167%;
 }
@@ -528,6 +527,7 @@ header form .submit {
   font-size: 3.2em; 
   padding-top: 1em;
   padding-bottom: 1em; 
+  margin-bottom:0.4em;
 }
 
 #description .box .text h3 {
