@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Generator: Adobe Illustrator 23.0.6, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="500px" height="500px" viewBox="0 0 500 500" enable-background="new 0 0 500 500" xml:space="preserve">
-<path d="M250,256.31c-34.963,0-63.312-29.355-63.312-65.575c0-36.231,28.349-65.6,63.312-65.6c34.963,0,63.312,29.368,63.312,65.6
-	C313.312,226.954,284.963,256.31,250,256.31 M250,46.131c-77.387,0-140.102,64.978-140.102,145.15
-	c0,75.696,63.461,173.362,105.835,220.909C231.573,429.946,250,453.868,250,453.868s19.819-24.072,36.804-42.324
-	c42.324-45.558,103.298-137.044,103.298-220.263C390.102,111.109,327.388,46.131,250,46.131"/>
+	 viewBox="0 0 500 500" style="enable-background:new 0 0 500 500;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#F37346;}
+</style>
+<path class="st0" d="M250,256.3c-35,0-63.3-29.4-63.3-65.6c0-36.2,28.3-65.6,63.3-65.6s63.3,29.4,63.3,65.6
+	C313.3,227,285,256.3,250,256.3 M250,46.1c-77.4,0-140.1,65-140.1,145.1c0,75.7,63.5,173.4,105.8,220.9
+	c15.8,17.8,34.3,41.7,34.3,41.7s19.8-24.1,36.8-42.3c42.3-45.6,103.3-137,103.3-220.3C390.1,111.1,327.4,46.1,250,46.1"/>
 </svg>

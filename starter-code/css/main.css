@@ -17,7 +17,7 @@ nav {
   background-color: white;
   width: 100%;
   height: 6.5em;
-  padding: 1.5em 1.2em 3em 1.2em;
+  padding: 1.7em 1.2em 3em 1.2em;
 }
 
 nav p {
@@ -56,17 +56,209 @@ nav p {
   color: white;
   font-size: 2.2em;
   text-transform: uppercase;
-  margin-top: 0px;
+  margin-top: 0;
+  margin-bottom: 0.6em;
   padding-left: 0.3em;
   padding-right: 0.3em;
 }
 
-.label-address label {
+.label-address, .label-dish {
   display: block;
 }
 
-/*
 .label-address input {
+  width: 100%;
+  height: 4em;
+  border-radius: 0.3em 0.3em 0em 0em;
+  border-style: none;
   background-image: url(../images/pin.svg);
+  background-size: 1.3em;
+  background-repeat: no-repeat;
+  background-position: 1.5em;
+  font-size: 1.1em;
+  padding-left: 4.2em;
 }
-*/
+
+.lign-form {
+  background-color: #E3E3E3;
+  height: 2px;
+  border: 0;
+  margin: 0;
+}
+
+.label-dish input {
+  width: 100%;
+  height: 4em;
+  border-radius: 0em 0em 0.3em 0.3em;
+  border-style: none;
+  background-image: url(../images/bbq.svg);
+  background-size: 1.2em;
+  background-repeat: no-repeat;
+  background-position: 1.5em;
+  font-size: 1.1em;
+  padding-left: 4.2em;
+}
+
+::placeholder {
+  color: #A1A1A1;
+}
+
+.button-form button {
+  height: 4em;
+  width: 10em;
+  background-color: #F37346;
+  border-style: none;
+  border-radius: 0.3em;
+  font-family: "Intro", sans-serif;
+  font-weight: 700;
+  font-size: 1em;
+  text-transform: uppercase;
+  color: white;
+  margin-top: 1.5em;
+  margin-bottom: 0.8em;
+}
+
+#how-it-works {
+  padding: 1.5em 1.2em 7em 1.2em;
+  width: 100%;
+}
+
+#how-it-works h2 {
+  font-size: 1.8em;
+  text-transform: uppercase;
+  color: #F37346;
+  text-align: center;
+}
+
+#how-it-works img {
+  width: 27%;
+}
+
+.search {
+  margin-bottom: 7em;
+  margin-top: 5em;
+}
+
+.order {
+  margin-bottom: 8.5em;
+}
+
+.text-how {
+  float: right;
+  width: 63%;
+}
+
+.text-how h3 {
+  margin-top: 0;
+  margin-bottom: 0.5em;
+  font-family: "Intro", sans-serif;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 1.5em;
+  color: #3e3e3e;
+}
+
+.text-how span {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+}
+
+.text-how p {
+  color: #A1A1A1;
+  line-height: 1.5em;
+}
+
+#dishes {
+  background-color: #f5f5eb;
+  padding-top: 1em;
+}
+
+#dishes h2 {
+  font-size: 1.8em;
+  text-transform: uppercase;
+  color: #F37346;
+  text-align: center;
+}
+
+
+@media (min-width:900px) {
+
+  nav {
+    padding: 1.7em 3.5em 3em 3.5em;
+  }
+
+  .landing-page {
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(180deg, rgba(192,218,57,1) 0%, rgba(117,204,83,1) 100%);
+  }
+
+  .landing-page img {
+    width: 52%;
+    height: 100%;
+    display: block;
+  }
+
+  .text-form {
+    width: 35%;
+    justify-content: center;
+    align-items: center;
+    background: none;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .text-form h2 {
+    font-size: 2.5em;
+    padding-left: 0;
+    margin-bottom: 1em;
+  }
+
+  .button-form button {
+    height: 4em;
+    width: 12em;
+    font-size: 1.1em;
+    margin-top: 1.5em;
+    margin-bottom: 0.8em;
+  }
+
+  #how-it-works {
+    padding: 1.6em 3.5em 6em 3.5em;
+  }
+
+  #how-it-works h2 {
+    font-size: 2.5em;
+    margin-bottom: 2.2em;
+  }
+
+  .container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #how-it-works img {
+    width: 25%;
+  }
+
+  .search, .order, .eat {
+    width: 30%;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .text-how {
+  width: 65%;
+  }
+
+  .text-how h3 {
+    font-size: 1.8em;
+  }
+
+  .text-how p {
+    font-size: 1.1em;
+    line-height: 1.5em;
+  }
+
+}
