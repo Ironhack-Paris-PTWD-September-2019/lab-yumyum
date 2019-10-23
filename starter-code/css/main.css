@@ -1,1 +1,376 @@
 *, :before, :after {box-sizing:border-box;}
+
+* {
+    box-sizing: border-box;
+    margin:0;
+}
+body {
+    font-family: 'Lato', sans-serif;
+}
+img {
+    max-width: 100%;
+}
+
+.menuetpanier > img {
+    height: 30px;
+
+}
+
+.masthead > p {
+    font-size:12px;
+    color: grey;
+}
+
+.menuetpanier {
+    margin-left: auto;
+}
+
+nav {
+    height: 80px;
+    display: flex;
+    padding: 20px 10px 20px 20px;
+}
+
+h2 {
+    text-transform: uppercase;
+}
+
+.order {
+    color:white;
+    font-size: 44px;
+    text-align: center;
+    padding-top: 35px;
+    margin-bottom: 20px;
+}
+
+#vert {
+    background: linear-gradient(180deg, rgba(185,217,58,1) 0%, rgba(116,204,82,1) 100%);
+    height: 65vh;
+}
+
+#vert img {
+    height: 30px;
+}
+
+.bloc {
+    margin:0;
+    padding-bottom: 0;
+}
+.form {
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 31px;
+}
+
+input {
+    height: 60px;
+    display:flex;
+    flex-direction:column;
+    width:100%;
+    padding-left: 50px;
+    position: relative;
+    font-size: 18px;
+    text-align: center;
+}
+
+.form > div {
+    padding-top:2px;
+    width:90%;
+    border-radius: 510x 10px 0px Opx;
+}
+
+
+.geoloc , .bbq {
+    height: 10px;
+}
+.geoloc {
+    position: absolute;
+    bottom: 47px;
+    left: 65px;
+    z-index: 1;
+}
+.bbq {
+    position: absolute;
+    top: 649px;
+    left: 63px;
+    z-index: 1;
+}
+
+.button {
+    color: #fff !important;
+    text-transform: uppercase;
+    text-decoration: none;
+    background:#fa7343;
+    padding: 20px;
+    border-radius: 5px;
+    display: inline-block;
+    border: none;
+    transition: all 0.4s ease 0s;
+    position: absolute;
+    left: 21px;
+}
+
+.titre {
+    font-size: 36px;
+    color: #fa7343;
+    padding-top: 52px;
+    padding-bottom: 58px;
+    text-align: center;
+}
+
+.works {
+    display: flex;
+    margin-bottom: 45px;
+}
+
+.wk {
+    width: 60%;
+    margin: 15px;
+}
+.imghaut {
+    width: 29%;
+    margin-left: 27px;
+}
+
+.txt {
+    padding-top: 24px;
+    font-size: 19px;
+    color: grey;
+    line-height: 30px;
+}
+.num {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+.restau {
+    background: #f5f5eb;
+}
+
+.numun {
+    border-width: 1px;
+    border-style: inherit;
+    border-color: black;
+    width: 80%;
+    background-color: white;
+    margin-left: 36px;
+    margin-top: 35px;
+}
+
+.sstitre {
+    font-size: 17px;
+    font-weight: bold;
+    color: #5c5c5c;
+    margin-left: 20px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+.chef {
+    font-size: 17px;
+    color: grey;
+    margin-left: 20px;
+    margin-bottom: 38px;
+}
+
+.prixcta {
+    display: flex;
+}
+
+.prix {
+    font-weight: bold;
+    font-size: 19px;
+    margin-left: 20px;
+    margin-bottom: 21px;
+    margin-top: 15px;
+}
+
+.cta {
+    color: #fff !important;
+    text-decoration: none;
+    background: #74cc52;
+    padding: 14px;
+    margin-left: 189px;
+    border-radius: 5px;
+    display: inline-block;
+    border: none;
+    transition: all 0.4s ease 0s;
+    position: absolute;
+}
+
+.starsrang {
+    display: flex;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+.stars {
+    display: flex;
+    width: 9%;
+    margin-left: 15px;
+}
+
+.rang {
+    margin-left: 132px;
+    color: grey;
+    margin-top: 5px;
+}
+
+#trait_dessus { 
+    border-top: 0.5px solid #929292;
+}
+
+#milieu {
+    margin-left: 37px;
+    margin-top: 40px;
+    margin-right: 37px;
+    margin-bottom: 40px;
+}
+
+#milieu img {
+    margin-bottom: 10px;
+}
+
+#milieu h3 {
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#milieu p {
+    text-align: center;
+    font-size: 13px;
+    margin-bottom: 15px;
+}
+
+.aligner {
+    display: flex;
+}
+
+.deplacer {
+    margin-left: 37px;
+}
+
+#back {
+    background: linear-gradient(180deg, rgba(249,112,70,1) 0%, rgba(239,62,80,1) 100%);
+    color: white;
+    margin-bottom: 31px;
+}
+
+.rond {
+    width: 100px;
+    height: 100px;
+    border-radius: 60px;
+    background: white;
+}
+
+@media (min-width:899px) {
+    .menuetpanier {
+      display: none;
+    }
+
+ /*   .menuetpanier:after {
+        menuetpanier: 'Home';
+    } */
+    
+    #listenav {
+        padding-right: 35px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+    }
+    
+    nav ul {
+        display: flex;
+        list-style: none;
+        margin-left: auto;
+        margin-right: 10px;
+    }
+
+    ul {
+        display: block;
+        list-style-type: disc;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        padding-inline-start: 40px;
+    }
+
+    nav {
+        background: white;
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 90px;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .blocvert {
+        display:flex;
+    }
+
+    #vert {
+        height: 51vh;
+    }
+
+    .button {
+        color: #fff !important;
+        text-transform: uppercase;
+        text-decoration: none;
+        background: #fa7343;
+        padding: 20px;
+        border-radius: 5px;
+        display: inline-block;
+        border: none;
+        left: 21px;
+        margin-left: 45em;
+    }
+
+    .order {
+        text-align: left;
+        margin-left: 3em;
+    }
+
+    .form {
+        margin-left: 6em;
+        margin-right: 8em;
+    }
+
+    .bbq {
+        top: 322px;
+        left: 800px;
+    }
+
+    .geoloc {
+        left: 800px;
+        top: 266px;
+    }
+
+    .totalworks {
+        display: flex;
+    }
+
+    .imghaut {
+        width: 19%;
+        margin-left: 2em;
+        margin-right: 2em;
+    }
+
+    .allrestau {
+        display: flex;
+    }
+
+    .numun {
+        width: 21%; 
+        margin-top: 0;
+    }
+  }
+
+@media (min-width: 0px) and (max-width: 898px) {
+    #listenav {
+      display: none;
+    }
