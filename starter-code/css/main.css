@@ -1,1 +1,356 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap');
+
 *, :before, :after {box-sizing:border-box;}
+
+img {max-width: 100%;}
+
+body {
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+}
+
+h2 {
+  font-family: "Intro", sans-serif;
+}
+
+nav {
+  background-color: white;
+  width: 100%;
+  height: 6.5em;
+  padding: 1.7em 1.2em 3em 1.2em;
+}
+
+nav p {
+  color: grey;
+  font-size: 0.8em;
+  margin-top: 0.3em;
+}
+
+.masthead {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.masthead img {
+  height: 1.4em;
+}
+
+.pictos-nav img {
+  height: 1.8em;
+  opacity: 0.5;
+  padding-left: 0.5em;
+}
+
+.landing-page img {
+  width: 100%;
+  display: block;
+}
+
+.text-form {
+  background: linear-gradient(180deg, rgba(192,218,57,1) 0%, rgba(117,204,83,1) 100%);
+  padding: 1.5em 1.2em 1.5em 1.2em;
+}
+
+.text-form h2 {
+  color: white;
+  font-size: 2.2em;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 0.6em;
+  padding-left: 0.3em;
+  padding-right: 0.3em;
+}
+
+.label-address, .label-dish {
+  display: block;
+}
+
+.label-address input {
+  width: 100%;
+  height: 4em;
+  border-radius: 0.3em 0.3em 0em 0em;
+  border-style: none;
+  background-image: url(../images/pin.svg);
+  background-size: 1.3em;
+  background-repeat: no-repeat;
+  background-position: 1.5em;
+  font-size: 1.1em;
+  padding-left: 4.2em;
+}
+
+.lign {
+  background-color: #E3E3E3;
+  height: 2px;
+  border: 0;
+  margin: 0;
+}
+
+.label-dish input {
+  width: 100%;
+  height: 4em;
+  border-radius: 0em 0em 0.3em 0.3em;
+  border-style: none;
+  background-image: url(../images/bbq.svg);
+  background-size: 1.2em;
+  background-repeat: no-repeat;
+  background-position: 1.5em;
+  font-size: 1.1em;
+  padding-left: 4.2em;
+}
+
+::placeholder {
+  color: #A1A1A1;
+}
+
+.button-form button {
+  height: 4em;
+  width: 10em;
+  background-color: #F37346;
+  border-style: none;
+  border-radius: 0.3em;
+  font-family: "Intro", sans-serif;
+  font-weight: 700;
+  font-size: 1em;
+  text-transform: uppercase;
+  color: white;
+  margin-top: 1.5em;
+  margin-bottom: 0.8em;
+}
+
+#how-it-works {
+  padding: 1.5em 1.2em 7em 1.2em;
+  width: 100%;
+}
+
+#how-it-works h2 {
+  font-size: 1.8em;
+  text-transform: uppercase;
+  color: #F37346;
+  text-align: center;
+}
+
+#how-it-works img {
+  width: 27%;
+}
+
+.search {
+  margin-bottom: 7em;
+  margin-top: 5em;
+}
+
+.order {
+  margin-bottom: 8.5em;
+}
+
+.text-how {
+  float: right;
+  width: 63%;
+}
+
+.text-how h3 {
+  margin-top: 0;
+  margin-bottom: 0.5em;
+  font-family: "Intro", sans-serif;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 1.5em;
+  color: #3e3e3e;
+}
+
+.text-how span {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+}
+
+.text-how p {
+  color: #A1A1A1;
+  line-height: 1.5em;
+}
+
+#dishes {
+  background-color: #f5f5eb;
+  padding: 1em 1.2em 1em 1.2em;
+  width: 100%;
+}
+
+#dishes h2 {
+  font-size: 1.8em;
+  text-transform: uppercase;
+  color: #F37346;
+  text-align: center;
+  margin-bottom: 1.3em;
+}
+
+.plat {
+  margin-bottom: 2em;
+  width: 100%;
+}
+
+.part1 img {
+  width: 100%;
+  height: 12em;
+  border-radius: 0.3em 0.3em 0em 0em;
+  display: block;
+}
+
+.text-dishes {
+  background-color: white;
+  padding: 1em 1em 0.3em 1em;
+}
+
+.text-dishes p {
+  margin: 0;
+  font-weight: 600;
+  margin-bottom: 0.5em;
+}
+
+.text-dishes span {
+  font-size: 0.9em;
+  font-weight: 300;
+  color: #A1A1A1;
+}
+
+.price {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-top: 1.5em;
+  margin-bottom: 1em;
+}
+
+.price button {
+  background-color: #59B647;
+  color: white;
+  font-size: 0.8em;
+  font-weight: 700;
+  border-style: none;
+  border-radius: 0.3em;
+  width: 37%;
+  padding: 0.7em;
+}
+
+.part2 {
+  background-color: white;
+  padding: 1em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 0em 0em 0.3em 0.3em;
+}
+
+.stars {
+  display: flex;
+}
+
+.stars img {
+  height: 1.2em;
+  margin-right: 0.1em;
+}
+
+.part2 p {
+  font-size: 0.8em;
+  color: #A1A1A1;
+  margin: 0;
+}
+
+
+@media (min-width:900px) {
+
+  nav {
+    padding: 1.7em 3.5em 3em 3.5em;
+  }
+
+  .landing-page {
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(180deg, rgba(192,218,57,1) 0%, rgba(117,204,83,1) 100%);
+  }
+
+  .landing-page img {
+    width: 52%;
+    height: 100%;
+    display: block;
+  }
+
+  .text-form {
+    width: 35%;
+    justify-content: center;
+    align-items: center;
+    background: none;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .text-form h2 {
+    font-size: 2.5em;
+    padding-left: 0;
+    margin-bottom: 1em;
+  }
+
+  .button-form button {
+    height: 4em;
+    width: 12em;
+    font-size: 1.1em;
+    margin-top: 1.5em;
+    margin-bottom: 0.8em;
+  }
+
+  #how-it-works {
+    padding: 1.6em 3.5em 6em 3.5em;
+  }
+
+  #how-it-works h2 {
+    font-size: 2.5em;
+    margin-bottom: 2.2em;
+  }
+
+  .container-how {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #how-it-works img {
+    width: 25%;
+  }
+
+  .search, .order, .eat {
+    width: 30%;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .text-how {
+  width: 65%;
+  }
+
+  .text-how h3 {
+    font-size: 1.8em;
+  }
+
+  .text-how p {
+    font-size: 1.1em;
+    line-height: 1.5em;
+  }
+
+  #dishes {
+    padding: 1.6em 3.5em 1em 3.5em;
+  }
+
+  #dishes h2 {
+    font-size: 2.5em;
+  }
+
+  .container-dishes {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .plat {
+    width: 23%;
+  }
+
+}
