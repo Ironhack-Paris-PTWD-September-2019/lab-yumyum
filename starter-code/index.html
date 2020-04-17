@@ -4,38 +4,44 @@
   <meta charset="utf-8" />
   <title></title>
   <link rel="stylesheet" href="fonts/Intro/index.css" />
+  <link rel="stylesheet" href="css/main.css"/>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,700" rel="stylesheet"/>
+  <meta name="viewport" content="width=device-width, initial-scale-1"/>
 </head>
 <body>
   <header>
     <nav>
       <div class="masthead">
-        <h1>YUM-YUM</h1>
+        <img class="logo1" src="images/logo.svg" alt="yumyum"/>
         <p>Local Cuisine Delivered</p>
       </div>
 
-      <div>
-        <a href="javascript:void 0;">Menu</a>
-        <a href="javascript:void 0;">Panier</a>
+      <div class="imgnav">
+        <img class= "logo" src="../starter-code/images/hamburger.svg" alt="menu"/>
+        <img class= "logo"src="../starter-code/images/cart.svg" alt="panier"/>
       </div>
     </nav>
+    <div class="contenu1">
+  <div>
+    <img src="https://via.placeholder.com/800x600"  class="imggrey"/>
+  </div>
 
     <h2>Order from restaurants around you</h2>
     <form action="javascript:void 0;">
-      <label>
-        Enter your address
-        <input type="text" name="address">
+      <div class="labelad">
+      <label class="text">
+        <input placeholder="Enter your address" type="text" name="address">
       </label>
     
-      <label>
-        What would you like
-        <input type="text" name="foodtype">
-      </label>
-
+      <label class="text">
+        <input placeholder="What would you like" type="text" name="foodtype">
+      </label> 
+    </div>
       <p>
-        <button type="submit">Find a food</button>
+        <button class="buton"type="submit">Find a food</button>
       </p>
     </form>
-
+  </div>
   </header>
 
   <section>
