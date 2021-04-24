@@ -4,42 +4,46 @@
   <meta charset="utf-8" />
   <title></title>
   <link rel="stylesheet" href="fonts/Intro/index.css" />
+  <link rel="stylesheet" href="css/main.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-  <header>
+  <header class = "header">
     <nav>
       <div class="masthead">
-        <h1>YUM-YUM</h1>
+        <img src="./images/logo.svg" alt="logo yum yum">
         <p>Local Cuisine Delivered</p>
       </div>
 
-      <div>
-        <a href="javascript:void 0;">Menu</a>
-        <a href="javascript:void 0;">Panier</a>
+      <div class= "icon">
+        <a href="javascript:void 0;"><img src="./images/hamburger.svg" alt="menu"></a>
+        <a href="javascript:void 0;"><img src="./images/cart.svg" alt="lock"> </a>
       </div>
     </nav>
-
-    <h2>Order from restaurants around you</h2>
+    <h1> 
+    <img src="https://via.placeholder.com/800x600" alt="grey square"/>
+  </h1>
+    <h2 class="order">Order from restaurants around you
     <form action="javascript:void 0;">
-      <label>
+      <label class = "label">
         Enter your address
         <input type="text" name="address">
       </label>
     
-      <label>
+      <label class = "label">
         What would you like
         <input type="text" name="foodtype">
       </label>
 
       <p>
-        <button type="submit">Find a food</button>
+        <button class = "button" type="submit">Find a food</button>
       </p>
     </form>
-
+  </h2>
   </header>
 
   <section>
-    <h2>How it works</h2>
+    <h2 class="works">How it works</h2>
 
     1. Search
     Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue.
@@ -52,7 +56,7 @@
   </section>
 
   <section>
-    <h2>Dishes</h2>
+    <h2 class ="dishes">Dishes</h2>
 
     Pasta with Lamb Ragù: Coppa, Boston
     Christine Quinlan
@@ -76,7 +80,7 @@
     33 Ratings
   </section>
 
-  <aside>
+  <aside class ="red-banner">
     Easy Online
     No need to pick up the phone.Quick and accurate ordering is here.
 
@@ -91,7 +95,7 @@
   </aside>
 
   <section>
-    <h2>Restaurant by Cuisine</h2>
+    <h2 class = "restaurant">Restaurant by Cuisine</h2>
 
     A La Carte
     189 dishes
@@ -103,10 +107,10 @@
     708 dishes
   </section>
 
-  <div>banner from hezy theme</div>
+  <div class = "banner">banner from hezy theme</div>
 
   <section>
-    <h2>Featured Restaurant</h2>
+    <h2 class = "featured">Featured Restaurant</h2>
     
     Acquerello
     Italian
@@ -123,7 +127,7 @@
     419 Reviews
   </section>
 
-  <footer>
+  <footer class ="footer">
     Get to know us
     About AlaCartee
     How Our Ordering Works
