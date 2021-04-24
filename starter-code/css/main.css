@@ -1,1 +1,355 @@
-*, :before, :after {box-sizing:border-box;}
+*, :before, :after {
+    box-sizing:border-box;
+}
+
+body {
+    margin:0;
+    font-family: 'Lato', sans-serif;
+}
+
+img {max-width: 100%;}
+
+h1, h2 {
+    font-family:"Intro";
+}
+
+h1 { 
+    font-weight: 400;
+    margin-bottom: 0;
+}
+h2 { 
+    font-size: 200%;
+    font-weight: 900;
+    color: #ED7142;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 1em;
+}
+h3 { 
+    font-size: 120%;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+#masthead {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+#masthead p {
+    margin-top: 0;
+    font-size: 90%;
+    color: #8c8f92;
+}
+
+#navigation {
+    display: flex;
+    margin-left: auto;
+    padding-right: 1em;
+}
+
+.navigationButton {
+    width: 2.5em;
+    color: #8c8f92;
+}
+
+#orderForm {
+    background-color: #7BCD51;
+    padding: 1.5em;
+    text-align: center;
+}
+
+#orderForm .orderImage {
+    height: 16em;
+    background-color: #969FA6;
+    border: 0;
+    margin: -1.5em -1.5em 0 -1.5em;
+}
+
+#orderForm h2 {
+    color: #FFF;
+    font-size: 250%;
+    text-align: left;
+}
+
+#orderForm form {
+    display: flex;
+    flex-direction: column;
+}
+
+#orderForm input {
+    width: 100%;
+    font-size: 1.2em;
+    padding: 1rem;
+    margin-bottom: .1em;
+    border-radius: .3em;
+    border: 0;
+    text-align: center;
+}
+
+#orderForm ::placeholder {
+    color: #898989;
+}
+
+#orderForm button {
+    color: #FFF;
+    background-color: #ED7142;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 1em;
+    padding: 0.8em 1.6em;
+    border-radius: .3em;
+    border: 0;
+    margin-top: .5em;
+    cursor: pointer;
+}
+
+#howItWorks {
+    padding: 1.5em;
+}
+
+#howItWorks p {
+    color: #B6B6B6;
+}
+
+#howItWorks .step {
+    display: flex;
+    margin-bottom: 2em;
+}
+
+#howItWorks .stepDescription {
+    margin-left: 1em;
+}
+
+#howItWorks img {
+    width: 8em;
+}
+
+#dishes {
+    background-color: #F5F5EB;
+    padding: 1.5em;
+}
+
+.dishCard {
+    color: #ADADAD;
+    margin-bottom: 2em;
+}
+
+.dishCard h3 {
+    text-transform: initial;
+    margin-bottom: .5em;
+    color: #3E3E3E;
+}
+
+.dishCard .dishImage {
+    height: 12em;
+    background-color: #969FA6;
+    border: 0;
+    border-top-left-radius: .6em;
+    border-top-right-radius: .6em;
+}
+
+.dishCard .dishInformation {
+    background-color: #FFF;
+    border-bottom-left-radius: .6em;
+    border-bottom-right-radius: .6em;
+    padding: 1em;
+}
+
+.dishCard .dishPriceBlock {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1.5em;
+    margin-bottom: 1em;
+    padding: .5em 0;
+}
+
+hr {
+    height: 3px;
+    color: #EAEAEA;
+    background-color: #EAEAEA;
+    border: none;
+    margin-left: -1em;
+    margin-right: -1em;
+}
+
+.dishCard .dishPriceBlock button, .restaurantCard .restaurantActions button {
+    background-color: #5FB038;
+    color: #FFF;
+    font-size: .9em;
+    font-weight: 600;
+    padding: 0.4em 1.2em;
+    border-radius: .3em;
+    border: 0;
+    cursor: pointer;
+}
+
+.dishCard .dishPrice {
+    font-size: 1em;
+    color: #000;
+    font-weight: 600;
+}
+
+.dishCard .dishRatings {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.4em 0;
+    margin-top: .5em;
+}
+
+.checked {
+    color: orange;
+}
+
+#mainFeatures {
+    background-color: #ED6F41;
+    padding: 1.8em 1.5em;
+    color: #FFF;
+}
+
+#mainFeatures h3 {
+    font-size: 140%;
+    font-weight: 900;
+}
+
+#mainFeatures .whiteBackgroundCircle {
+    width: 5em;
+    background: #FFF;
+    padding: 1em;
+    border-radius: 50%;
+}
+
+.twoCards {
+    display: flex;
+    align-content: space-between;
+}
+
+.featureCard {
+    text-align: center;
+    margin: .5em .8em;
+}
+
+#restaurantsByCuisine {
+    background-color: #F5F5EB;
+    padding: 1.5em;
+}
+
+.restaurantCard {
+    color: #ADADAD;
+    margin-bottom: 2em;
+}
+
+.restaurantCard h3 {
+    text-transform: initial;
+    margin-bottom: .2em;
+    color: #3E3E3E;
+}
+
+.restaurantImage {
+    height: 12em;
+    background-color: #969FA6;
+    border: 0;
+    border-top-left-radius: .6em;
+    border-top-right-radius: .6em;
+}
+
+.restaurantInformation {
+    background-color: #FFF;
+    border-bottom-left-radius: .6em;
+    border-bottom-right-radius: .6em;
+    padding: .2em 1em;
+}
+
+#adZone {
+    background-color: #F5F5EB;
+    padding: 0.5em 1.5em;
+}
+
+.adBanner {
+    border-radius: .6em;
+    background-color: #292A31;
+    color: #FFF;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 1em;
+}
+
+.adBanner p {
+    font-size: 200%;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+#featuredRestaurant {
+    background-color: #F5F5EB;
+    padding: 0.5em 1.5em;
+}
+
+.restaurantCard .restaurantActions {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1.5em;
+    margin-bottom: 1em;
+    padding: .5em 0;
+}
+
+.restaurantCard .restaurantRatings {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.4em 0;
+    margin-top: .5em;
+}
+
+footer {
+    padding: 0.5em 1.5em;
+}
+
+footer h4 {
+    font-size: 110%;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 1em;
+}
+
+footer a {
+    text-decoration: none;
+    color: #898989;
+    display: block;
+    margin-bottom: .5em;
+}
+
+.regroupedLinks {
+    margin-bottom: 2em;
+}
+
+.copyright {
+    padding: 1em 1.5em;
+    font-weight: initial;
+    background-color: #EDEDE5;
+    margin-left: -1.5em;
+    margin-right: -1.5em;
+    margin-bottom: -1.5em;
+}
+
+.copyright p {
+    text-align: center;
+}
+
+.copyright .hezyTheme {
+    color: #79B95B;
+    display: inline-block;
+}
+
+.copyright .copyrightLinks {
+    display: flex;
+    justify-content: space-between;
+}
+
